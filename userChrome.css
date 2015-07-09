@@ -1,0 +1,9 @@
+/*
+ * hide_flashplugin_message_popup
+ *
+ * скрывает сообщение "для просмотра содержимого нужен FlashPlugin"
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+  notification[value="plugin-hidden"] {
+   display: none !important;
+}
