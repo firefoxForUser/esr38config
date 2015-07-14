@@ -43,3 +43,9 @@
 [Dafizilla Table2Clipboard](https://addons.mozilla.org/en-US/firefox/addon/dafizilla-table2clipboard) - дополнительное пункты меню для копирования таблиц со страницы.
 
 [Cookie Controller](https://addons.mozilla.org/en-us/firefox/addon/cookie-controller) - быстрое управление куками и их правами. Например можно их удалить и таким образом "выйти" с сайта.
+
+[Flashblock](https://addons.mozilla.org/ru/firefox/addon/flashblock/) - часто онлайн видео html5 это источник утечки трафика. Это дополнение позволяет разрешить видео на странице или запретить. Имеет белый список сайтов. Разрешать/запрещать лучше кнопочкой, элемент "играть", которым заменяется видео на странице часто работает не правильно.
+
+[Muter](https://addons.mozilla.org/en-US/firefox/addon/muter/) - выключает звук от HTML5 видео/аудио. Не преостанавливает воспроизведение, просто выключает звук.
+
+[NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript) - делает использование сайтов очень не удобным. Но через него можно совсем запретить html5 видео/аудио и так избежать утчек трафика. Так же позоляет запретить WebGL и защищает от некоторых видов аттак.
