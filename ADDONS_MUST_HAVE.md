@@ -43,5 +43,3 @@
 [Dafizilla Table2Clipboard](https://addons.mozilla.org/en-US/firefox/addon/dafizilla-table2clipboard) - дополнительное пункты меню для копирования таблиц со страницы.
 
 [Cookie Controller](https://addons.mozilla.org/en-us/firefox/addon/cookie-controller) - быстрое управление куками и их правами. Например можно их удалить и таким образом "выйти" с сайта.
-
-[Tile Tabs](https://addons.mozilla.org/en-us/firefox/addon/tile-tabs/) - разбивает окно на сектора для одновременного отображения содержимого нескольких табов в одном окне.
