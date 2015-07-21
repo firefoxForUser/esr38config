@@ -80,6 +80,7 @@ user_pref("network.http.speculative-parallel-limit", 0);
  * Отключить неприватный SPDY.
  */
 user_pref("network.http.spdy.enabled", false);
+user_pref("network.http.spdy.use-alternate-protocol", false);
 
 /*
  * Отключить отслеживание и запоминание запросов
@@ -368,6 +369,84 @@ user_pref("pdfjs.disabled", true);
 user_pref("browser.cache.disk.capacity", 0);
 
 //******************************************************************************
+//******************************** Опасное для приватности поведение интерфейса Firefox
+//** Отключаем лишние возможности javascript
+
+/*
+ * Запрещаем скриптам закрывать окна.
+ */
+user_pref("dom.allow_scripts_to_close_windows", false);
+
+/*
+ * Запрещаем скриптам изменять размер окон.
+ */
+// http://kb.mozillazine.org/JavaScript#JavaScript_settings_in_Firefox_23_and_above
+user_pref("dom.disable_window_move_resize", true);
+
+/*
+ * Запрещаем скриптам сворачивать\разворачивать окна.
+ */
+user_pref("dom.disable_window_flip", true);
+
+/*
+ * Запрещаем скриптам показывать текст в строке статуса.
+ */
+user_pref("dom.disable_window_status_change", true);
+
+/*
+ * Запрещаем скриптам закрывать окна.
+ */
+// http://kb.mozillazine.org/Prevent_websites_from_disabling_new_window_features
+user_pref("dom.disable_window_open_feature.close", true);
+
+/*
+ * Запрещаем скриптам скрывать строку адреса.
+ */
+user_pref("dom.disable_window_open_feature.location", true);
+
+/*
+ * Запрещаем скриптам скрывать меню окна.
+ */
+user_pref("dom.disable_window_open_feature.menubar", true);
+
+/*
+ * Запрещаем скриптам блокировать кнопку минимизации окна.
+ */
+user_pref("dom.disable_window_open_feature.minimizable", true);
+
+/*
+ * Запрещаем скриптам скрывать персональную панель инструментов.
+ */
+user_pref("dom.disable_window_open_feature.personalbar", true);
+
+/*
+ * Запрещаем скриптам изменять размеры окон.
+ */
+user_pref("dom.disable_window_open_feature.resizable", true);
+
+/*
+ * Запрещаем скриптам скрывать полосы прокрутки.
+ */
+user_pref("dom.disable_window_open_feature.scrollbars", true);
+
+/*
+ * Запрещаем скриптам скрывать строку состояния.
+ */
+user_pref("dom.disable_window_open_feature.status", true);
+
+/*
+ * Запрещаем скриптам скрывать заголовок окна.
+ */
+user_pref("dom.disable_window_open_feature.titlebar", true);
+
+/*
+ * Запрещаем скриптам скрывать панель инструментов.
+ */
+user_pref("dom.disable_window_open_feature.toolbar", true);
+
+
+
+//******************************************************************************
 //******************************** Поведение интерфейса Firefox
 
 /*
@@ -410,12 +489,6 @@ user_pref("ui.scrollToClick", 1);
  * Включаем проверку правописания во всех полях ввода, а не только в месте ввода.
  */
 user_pref("layout.spellcheckDefault", 2);
-
-/*
- * Задержка перед установкой дополнения.
- * Ставим в 0.
- */
-user_pref("security.dialog_enable_delay", 0);
 
 /*
  * Отключаем выделение пробела справа при двойном клике на слово.
@@ -469,8 +542,57 @@ user_pref("browser.xul.error_pages.expert_bad_cert", true);
  */
 user_pref("browser.search.showOneOffButtons", false);
 
-
 /*
  * Отключение проверки является ли Firefox браузером по умолчанию.
  */
 user_pref("browser.shell.checkDefaultBrowser", false);
+
+/*
+ * Этот параметр отвечает за задержку перед открытием подменю.
+ * Убираем задержку.
+ */
+user_pref("ui.submenuDelay", 0);
+
+//******************************************************************************
+//******************************** Поведение интерфейса Firefox
+//***** Установить (раскомментировать) по желанию
+
+/*
+ * Отключение режима, при котором при восстановлении сессии
+ * загружается лишь одна вкладка, а остальные только при переходе на неё.
+ *
+ */
+//обычные вкладки
+//user_pref("browser.sessionstore.restore_on_demand", false);
+//закрепленные вкладки
+//user_pref("browser.sessionstore.restore_pinned_tabs_on_demand", false);
+
+/*
+ * Выключить иконки сайтов (на вкладках и в адресной строке и в закладках):
+ *
+ */
+//user_pref("browser.chrome.site_icons", false);
+//
+//user_pref("browser.chrome.favicons", false);
+
+/*
+ * Задержка перед установкой дополнения.
+ * Ставим в 0.
+ */
+user_pref("security.dialog_enable_delay", 0);
+
+/*
+ * Задержка перед началом отрисовки страницы в миллисекундах.
+ * Ставим в 0.
+ */
+//user_pref("nglayout.initialpaint.delay", 0);
+
+/*
+ * кодирование ссылок при копировании.
+ */
+/*
+   TRUE - Кодирование разрешено, скопированные ссылки будут выглядеть так: http://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Search (Рекомендуется)
+   FALSE - Кодирование запрещено, скопированные ссылки будут выглядеть так (также ссылка): http://ru.wikipedia.org/wiki/Служебная:Search
+   прим. НО при отключённом кодировании ссылки могут копироваться с ошибками, например так: http://www.google.ru/search?q=поис�
+*/
+//user_pref("network.standard-url.escape-utf8", true);

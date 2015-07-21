@@ -7,3 +7,18 @@
   notification[value="plugin-hidden"] {
    display: none !important;
 }
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*
+ * hide_flashplugin_message_popup
+ * разместить вкладки под адресной стракой.
+ * при добавлении новых панелей нужное значение может меняться
+ * 
+ */
+#TabsToolbar {
+	-moz-box-ordinal-group: 2 !important;
+}
+#addon-bar {
+	-moz-box-ordinal-group: 3 !important;
+}
