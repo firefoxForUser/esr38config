@@ -19,3 +19,7 @@
 [Multifox](https://addons.mozilla.org/En-us/firefox/addon/multifox/?src=hp-dl-featured) - позволяет входить на один и тот же сайт под разными никами одновременно.
 
 [FireGestures](https://addons.mozilla.org/en-US/firefox/addon/firegestures) - можно создавать жесты мышью и вешать на них разные комманды и пользовательские скрипты.
+
+[FireFTP](https://addons.mozilla.org/ru/firefox/addon/fireftp) - FTP клиент.
+
+[FireSSH](https://addons.mozilla.org/ru/firefox/addon/firessh) - SSH клиент.
