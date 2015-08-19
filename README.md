@@ -9,6 +9,7 @@
 #### Для анонимность есть
 * [TorBrowser](https://www.torproject.org/index.html.en)
 * А ещё лучше [Tails](https://tails.boum.org/) запущенный в [VirtualBox](https://www.virtualbox.org/wiki/Downloads) или с диска.
+* [Whonix](https://www.whonix.org/)
 
 #### Файлы настроект приложения
 
