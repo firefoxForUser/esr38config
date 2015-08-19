@@ -47,8 +47,6 @@
 
 [tabTooltip](https://addons.mozilla.org/ru/firefox/addon/tabtooltip) - при наведении на вкладку показывает не только название страницы, но и её адрес.
 
-[Multifox](https://addons.mozilla.org/En-us/firefox/addon/multifox/?src=hp-dl-featured) - позволяет входить на один и тот же сайт под разными никами одновременно.
-
 [User-Agent Switcher](https://addons.mozilla.org/en-us/firefox/addon/user-agent-switcher-firefox) - подменяет модель браузера. На сегодня такую подмену удобно использовать, чтобы заставить сайт отображать HTML5 плеер с видео/аудио. Так как часто для настольных версий сайты требуют Flash плагин или показывают свой кривой HTML5 плерр (взамен встроенного). По тегу [useragent](https://addons.mozilla.org/en-us/firefox/tag/useragent) можно увидеть аналоги, данное же просто удобно.
 
 [User-Agent JS Fixer](https://addons.mozilla.org/en-us/firefox/addon/user-agent-js-fixer/) - используется в связке со сменой user agent (модели браузера). Копирует подмененную модель в свойства java script и сайту тяжелее обнаружить подмену. Рекомендую использовать связке с [User-Agent Switcher](https://addons.mozilla.org/en-us/firefox/addon/user-agent-switcher-firefox) для просмотра HTML5 видео на сайтах, которые не хотят его показывать настольным версиям браузера.
