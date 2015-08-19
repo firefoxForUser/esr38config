@@ -13,3 +13,5 @@
 [Snap Links Plus](https://addons.mozilla.org/en-US/firefox/addon/SnapLinksPlus/) - открытие нескольких ссылок одновременно используя прямоугольник для их выделения.
 
 [Tile Tabs](https://addons.mozilla.org/en-us/firefox/addon/tile-tabs/) - разбивает окно на сектора для одновременного отображения содержимого нескольких табов в одном окне.
+
+[Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper) - скачивание онлайн видео. Хуже чем FlashGot, содержит в качестве рекламы список сайтов реусрсов видео, но может понадобиться в некоторых случаях и сделать операции более удобными.
