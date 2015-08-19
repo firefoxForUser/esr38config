@@ -8,7 +8,7 @@
 
 [Fastest Search - Browse/Shop Faster!](https://addons.mozilla.org/ru/firefox/addon/fastest-search) - продвинутый поиск по странице, фильтры и выделение результатов, поиск по регулярным выражениям, поиск по нескольким вкладкам.
 
-[Torrent Tornado](https://addons.mozilla.org/en-US/firefox/addon/torrent-tornado) - торрент клиент, не содержит бинарных компонентов, использует только Firefox и его настройки (можно качать через Tor).
+[Torrent Tornado](https://addons.mozilla.org/en-US/firefox/addon/torrent-tornado) - торрент клиент, не содержит бинарных компонентов, использует только Firefox и его настройки (можно качать через Tor, но делать это через Tor неанонимно).
 
 [Snap Links Plus](https://addons.mozilla.org/en-US/firefox/addon/SnapLinksPlus/) - открытие нескольких ссылок одновременно используя прямоугольник для их выделения.
 
