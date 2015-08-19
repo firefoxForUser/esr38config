@@ -17,3 +17,5 @@
 [Video DownloadHelper](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper) - скачивание онлайн видео. Хуже чем FlashGot, содержит в качестве рекламы список сайтов реусрсов видео, но может понадобиться в некоторых случаях и сделать операции более удобными.
 
 [Multifox](https://addons.mozilla.org/En-us/firefox/addon/multifox/?src=hp-dl-featured) - позволяет входить на один и тот же сайт под разными никами одновременно.
+
+[FireGestures](https://addons.mozilla.org/en-US/firefox/addon/firegestures) - можно создавать жесты мышью и вешать на них разные комманды и пользовательские скрипты.
