@@ -52,3 +52,5 @@
 [User-Agent JS Fixer](https://addons.mozilla.org/en-us/firefox/addon/user-agent-js-fixer/) - используется в связке со сменой user agent (модели браузера). Копирует подмененную модель в свойства java script и сайту тяжелее обнаружить подмену. Рекомендую использовать связке с [User-Agent Switcher](https://addons.mozilla.org/en-us/firefox/addon/user-agent-switcher-firefox) для просмотра HTML5 видео на сайтах, которые не хотят его показывать настольным версиям браузера.
 
 [Customizable Shortcuts](https://addons.mozilla.org/ru/firefox/addon/customizable-shortcuts/) - позволяет изменять или отключать сочетания клавишь.
+
+[Custom Buttons]()https://addons.mozilla.org/ru/firefox/addon/custom-buttons/) - создание программируемых кнопок. По сути это, как пользовательские скрипты с большими правами доступа к специальному API браузера. Кнопки никто не проверяет, а прав у них больше, так что устанавливать их опасно. Но некоторым кнопкам нету аналогов среди дополнений. Эти кнопки, как и дополнения, и пользовательские стили и скрипты можно считать важной частью Firefox.
