@@ -26,3 +26,7 @@
 
 [OmniSidebar](https://addons.mozilla.org/ru/firefox/addon/omnisidebar) - можно как угодно распологать боковые панели.
 
+[ChatZilla](https://addons.mozilla.org/en-US/firefox/addon/chatzilla/) - IRC клиент.
+
+[Form History Control](https://addons.mozilla.org/en-US/firefox/addon/form-history-control/) -- управление историей введенного текста в поля поиска, поляы форм и т.д. Чтобы случайно не потерять.
+
