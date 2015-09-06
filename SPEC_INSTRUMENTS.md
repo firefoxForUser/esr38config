@@ -23,3 +23,6 @@
 [FireFTP](https://addons.mozilla.org/ru/firefox/addon/fireftp) - FTP клиент.
 
 [FireSSH](https://addons.mozilla.org/ru/firefox/addon/firessh) - SSH клиент.
+
+[OmniSidebar](https://addons.mozilla.org/ru/firefox/addon/omnisidebar) - можно как угодно распологать боковые панели.
+
