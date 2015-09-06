@@ -42,7 +42,7 @@
 [Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/), [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/), [RightToClick](https://addons.mozilla.org/en-us/firefox/addon/righttoclick/) <br>
 [BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/) <br>
 [HTTPS Everywhere](https://addons.mozilla.org/en-us/firefox/addon/https-everywhere/) <br>
-[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin] или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
+[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin) или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
 [NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
 
 8. Словари проверки орфографии и дополнения для них. <br>
