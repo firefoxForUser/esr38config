@@ -38,11 +38,11 @@
 и др.
 
 7. Дополнения для контроля доступа. Можно блокировать часть опасных для безопасности/приватности функций сайта, или просто излишне тяжелых. Очистка истории, которая не контролируется стандартными средствами. <br>
-(Self-Destructing Cookies)[https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/] <br>
-(Policeman)[https://addons.mozilla.org/en-us/firefox/addon/policeman/], (RequestPolicy)[https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/], (uMatrix)[https://addons.mozilla.org/en-US/firefox/addon/umatrix/], [RightToClick](RightToClick) <br>
-(BetterPrivacy)[https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/] <br>
-(HTTPS Everywhere)[https://addons.mozilla.org/en-us/firefox/addon/https-everywhere/] <br>
-(uBlock Origin)[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin] или (Adblock Plus)[https://addons.mozilla.org/en-US/firefox/addon/adblock-plus] (с подписками приватности) <br>
+[Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) <br>
+[Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/], [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/), [RightToClick](https://addons.mozilla.org/en-us/firefox/addon/righttoclick/) <br>
+[BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/) <br>
+[HTTPS Everywhere](https://addons.mozilla.org/en-us/firefox/addon/https-everywhere/) <br>
+[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin] или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
 [NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
 
 8. Словари проверки орфографии и дополнения для них. <br>
