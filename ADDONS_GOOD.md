@@ -24,19 +24,6 @@
 
 [Classic Theme Restorer (Customize UI)](https://addons.mozilla.org/en-us/firefox/addon/classicthemerestorer) - позволяет вернуть и использовать многие из хороших возможностей старого интерфейса Firefox + дополнительные возможности. Например можно изменить размер монструозных кнопок на меньший.
 
-[Scriptish](https://addons.mozilla.org/en-us/firefox/addon/scriptish) или [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий.
-Список сайтов с готовыми скриптами http://wiki.greasespot.net/User_Script_Hosting
-
-[Stylish](https://addons.mozilla.org/en-us/firefox/addon/stylish) - позволяет менять интерфейс Firefox с помощью CSS стилей. Этого можно добиться и добавив такие стили в специальном файле конфигурации Firefox. Но это дополнение имеет дополнительные возможности, удобство и не требует перезагрузки Firefox для применения стилей. Много готовых стилей на http://userstyles.org
-Также, есть и другие дополнения для управления стилями или расширения возможностей Stylish:
-[User Style Manager](https://addons.mozilla.org/ru/firefox/addon/user-style-manager/), 
-[Stylish-Custom](https://addons.mozilla.org/ru/firefox/addon/stylish-custom).
- Для поиска элементов интерфейса браузера и изменения их стиля:
-[DOM Inspector](https://addons.mozilla.org/en-us/firefox/addon/dom-inspector-6622/), 
-[Element Inspector](https://addons.mozilla.org/en-Us/firefox/addon/element-inspector), 
-[InspectorWidget](https://addons.mozilla.org/en-us/firefox/addon/inspectorwidget), 
-[Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
-
 [Resurrect Pages](https://addons.mozilla.org/en-us/firefox/addon/resurrect-pages) - позволяет просмотреть копию страницы в веб архивах и кэше поисковиков. Так можно просмотреть старую версию страницы или не доступную страницу.
 
 [Tree Style Tab](https://addons.mozilla.org/en-us/firefox/addon/tree-style-tab) - вкладки в виде групп (дерева).
