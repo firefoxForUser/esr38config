@@ -33,7 +33,8 @@
 5. [Custom Buttons](https://addons.mozilla.org/ru/firefox/addon/custom-buttons/) -- создание программируемых кнопок, не настолько функциональных, как дополнения, но имеющих больше прав чем пользовательские скрипты. Есть уникальные по функционалу кнопки, которым нет аналогов среди дополнений.
 Кнопки устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. При этом опасность они представляют большую чем скрипты.
 
-6. Дополнения для разработчиков. Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). Такие, как: <br>
+6. Дополнения для разработчиков. <br>
+Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). Такие, как: <br>
 [Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) -- само имеющее дополнение для себя. <br>
 [Дополнения для Firebug](http://getfirebug.com/wiki/index.php/Firebug_Extensions) <br>
 [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer) <br>
@@ -41,7 +42,8 @@
 [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox) <br>
 и др.
 
-7. Дополнения для контроля доступа. Можно блокировать часть опасных для безопасности/приватности функций сайта, или просто излишне тяжелых. Очистка истории, которая не контролируется стандартными средствами. <br>
+7. Дополнения для контроля доступа. <br>
+Можно блокировать часть опасных для безопасности/приватности функций сайта, или просто излишне тяжелых. Очистка истории, которая не контролируется стандартными средствами. <br>
 [Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) <br>
 [Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/), [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/), [RightToClick](https://addons.mozilla.org/en-us/firefox/addon/righttoclick/) <br>
 [BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/) <br>
