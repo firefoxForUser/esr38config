@@ -54,7 +54,8 @@
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin) или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
 [NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
 и др.
-
+<br>
+<br>
 7. Словари проверки орфографии и дополнения для них. <br>
 [Репозиторий Mozilla](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
 [Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
