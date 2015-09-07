@@ -33,8 +33,11 @@
 5. [Custom Buttons](https://addons.mozilla.org/ru/firefox/addon/custom-buttons/) -- создание программируемых кнопок, не настолько функциональных, как дополнения, но имеющих больше прав чем пользовательские скрипты. Есть уникальные по функционалу кнопки, которым нет аналогов среди дополнений.
 Кнопки устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. При этом опасность они представляют большую чем скрипты.
 
-6. Дополнения для разработчиков. <br>
-Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). Такие, как: <br>
+6. [Дополнения](https://addons.mozilla.org/en-US/firefox/) (или расширения) <br>
+Куски кода на javascript и xml, которые траиваются в сам Firefox. Это основное преимущество Firefox. Ими вы можете добавить практически любую функциональность или изменить внешний вид Firefox. Приведу примеры возможностей.
+
+Дополнения для разработчиков. <br>
+Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). <br>
 [Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) -- само имеющее дополнение для себя. <br>
 [Дополнения для Firebug](http://getfirebug.com/wiki/index.php/Firebug_Extensions) <br>
 [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer) <br>
@@ -42,7 +45,7 @@
 [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox) <br>
 и др.
 
-7. Дополнения для контроля доступа. <br>
+Дополнения для контроля доступа. <br>
 Можно блокировать часть опасных для безопасности/приватности функций сайта, или просто излишне тяжелых. Очистка истории, которая не контролируется стандартными средствами. <br>
 [Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) <br>
 [Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/), [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/), [RightToClick](https://addons.mozilla.org/en-us/firefox/addon/righttoclick/) <br>
@@ -52,18 +55,18 @@
 [NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
 и др.
 
-8. Словари проверки орфографии и дополнения для них. <br>
+7. Словари проверки орфографии и дополнения для них. <br>
 [Репозиторий Mozilla](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
 [Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
 [English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) <br>
 
-9. Поисковые движки и дополнения для них. <br>
+8. Поисковые движки и дополнения для них. <br>
 [Репозиторий Mozilla](https://addons.mozilla.org/en-US/firefox/search/?atype=4) <br>
 [Неофициальный репозиторий](http://mycroftproject.com/) <br>
 [Add to Search Bar](https://addons.mozilla.org/en-us/firefox/addon/add-to-search-bar) <br>
 и др.
 
-10. Плагины <br>
+9. Плагины <br>
 По сути отдельные программы от сторонних разработчиков. Если Firefox видит на странице содержимое обрабатываемое плагином и он устанолен, то содержимое передаётся ему, он его обрабатывает и отображает. Также в качестве плагина могут быть кодеки. Или плагин может работать как прослойка между Firefox или другой программой (напр. плагин переводчика Lingoes). <br>
 
 На сегодня плагины имеющие смысл:
@@ -76,9 +79,9 @@
 Всё остальное - сторонние плагины и их можете смело отключать.
 
 <br>
-11. [Приложения](https://marketplace.firefox.com/) <br>
+10. [Приложения](https://marketplace.firefox.com/) <br>
 Программы на javascript + собственное API от Mozilla + html. Запускается на движке Firefox. Ничего стоящего пока там нет, можете не обращать внимание. <br>
 
-12. [Services](https://activations.cdn.mozilla.net/en-US/) <br>
+11. [Services](https://activations.cdn.mozilla.net/en-US/) (интеграция с соц. сетями, Social API) <br>
 Некая интеграция с соц. сетями и некоторыми другими сервисами. Представляет собой белый список сайтов из которых вы можете добавить сервисы. Сами сервисы представляют собой страницы, которую вы можете открыть нажав на кнопку-самолетик в Firefox. Возможно ещё уведомления о событиях, рассылка приглашений на сервис друзьям и подобное. Ненужное излишество, которое полностью заменяется обычным входом в эти соц. сети.
 
