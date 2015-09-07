@@ -16,9 +16,12 @@
 [Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
 <br>
 Можно использовать стили и без дополнений, используя специальный конфигаруционный файл для них, но возможностей будет меньше.
+<br>
+Стили устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
 
 2. Пользовательские скрипты <br>
 [Scriptish](https://addons.mozilla.org/en-us/firefox/addon/scriptish) или [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий.
+Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
 [Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting)
 
 3. [Themes](https://addons.mozilla.org/en-US/firefox/themes/) (ранее Personas) <br>
@@ -28,6 +31,7 @@
 Полноценные темы.
 
 5. [Custom Buttons](https://addons.mozilla.org/ru/firefox/addon/custom-buttons/) -- создание программируемых кнопок, не настолько функциональных, как дополнения, но имеющих больше прав чем пользовательские скрипты. Есть уникальные по функционалу кнопки, которым нет аналогов среди дополнений.
+Кнопки устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. При этом опасность они представляют большую чем скрипты.
 
 6. Дополнения для разработчиков. Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). Такие, как: <br>
 [Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) -- само имеющее дополнение для себя. <br>
@@ -44,6 +48,7 @@
 [HTTPS Everywhere](https://addons.mozilla.org/en-us/firefox/addon/https-everywhere/) <br>
 [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin) или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
 [NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
+и др.
 
 8. Словари проверки орфографии и дополнения для них. <br>
 [Репозиторий Mozilla](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
@@ -54,7 +59,16 @@
 [Репозиторий Mozilla](https://addons.mozilla.org/en-US/firefox/search/?atype=4) <br>
 [Неофициальный репозиторий](http://mycroftproject.com/) <br>
 [Add to Search Bar](https://addons.mozilla.org/en-us/firefox/addon/add-to-search-bar) <br>
+и др.
 
 10. Плагины
+По сути отдельные программы от сторонних разработчиков. Если Firefox видит на странице содержимое обрабатываемое плагином и он устанолен, то содержимое передаётся ему, он его обрабатывает и отображает. Также в качестве плагина могут быть кодеки. Или плагин может работать как прослойка между Firefox или другой программой (напр. плагин переводчика Lingoes). <br>
+На сегодня плагины имеющие смысл:
+* FlashPlayer - уже осталось очень мало сайтов, которые его используют и которым нет альтернатив. Но все же они есть.
+* Встроенные кодек для видео OpenH264 Video Codec provided by Cisco Systems, Inc.
+* Primetime Content Decryption Module provided by Adobe Systems, Incorporated - подгружается, необходим для воспроизведения защищенного видео в сетях вроде Netflix.
+* В очень-очень редких случаях некоторые сайты не работают без Java плагина.
+Всё остальное - сторонние плагины и их можете смело отключать.
 
 11. Приложения
+Программы на javascript + собственное API от Mozilla + html. Запускается на движке Firefox. Ничего стоящего пока там нет, можете не обращать внимание.
