@@ -32,7 +32,7 @@
 
 [forum.mozilla-russia.org](https://forum.mozilla-russia.org/) - русскоязычный форум о Firefox.
 
-[cat-in-136.github.io](https://cat-in-136.github.io) - какой-то блог о сравнении версий Firefox.
+[cat-in-136.github.io](https://cat-in-136.github.io) - блог автора [Configuration Mania](https://addons.mozilla.org/ru/firefox/addon/configuration-mania-4420/), сравнении версий Firefox.
 
 [Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078) - на пальцах поясняет как менять вид (размер, форма, тень, положение) любого элемента интерфейса Firefox или сайты.
 
