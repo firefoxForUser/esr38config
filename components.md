@@ -66,7 +66,7 @@
 #### 7. Словари проверки орфографии и дополнения для них. <br>
 [Репозиторий Mozilla](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
 [Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
-[English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) <br>
+[English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) (совмещённый русский и английский)<br>
 <br>
 <br>
 #### 8. Поисковые движки и дополнения для них. <br>
