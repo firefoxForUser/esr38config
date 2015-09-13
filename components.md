@@ -45,25 +45,6 @@
 <br>
 #### 6. [Дополнения](https://addons.mozilla.org/en-US/firefox/) (или расширения) <br>
 Куски кода на javascript и xml, которые встраиваются в сам Firefox. Это основное преимущество Firefox. Ими вы можете добавить практически любую функциональность или изменить внешний вид Firefox. Приведу примеры возможностей.
-
-Дополнения для разработчиков. <br>
-Их можно вынести в отдельную категорию из-за очень широкого функционала (контроль cookie, LocalStorage, скриптов, поиск ссылок на аудио/видео и т.д.). <br>
-[Firebug](https://addons.mozilla.org/en-us/firefox/addon/firebug/) -- само имеющее дополнение для себя. <br>
-[Дополнения для Firebug](http://getfirebug.com/wiki/index.php/Firebug_Extensions) <br>
-[Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer) <br>
-[Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/) <br>
-[HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox) <br>
-и др.
-
-Дополнения для контроля доступа. <br>
-Можно блокировать часть опасных для безопасности/приватности функций сайта, или просто излишне тяжелых. Очистка истории, которая не контролируется стандартными средствами. <br>
-[Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) <br>
-[Policeman](https://addons.mozilla.org/en-us/firefox/addon/policeman/), [RequestPolicy](https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/), [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/), [RightToClick](https://addons.mozilla.org/en-us/firefox/addon/righttoclick/) <br>
-[BetterPrivacy](https://addons.mozilla.org/en-US/firefox/addon/betterprivacy/) <br>
-[HTTPS Everywhere](https://addons.mozilla.org/en-us/firefox/addon/https-everywhere/) <br>
-[uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin) или [Adblock Plus](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus) (с подписками приватности) <br>
-[NoScript Security Suite](https://addons.mozilla.org/en-us/firefox/addon/noscript) <br>
-и др.
 <br>
 <br>
 #### 7. Словари проверки орфографии и дополнения для них. <br>
