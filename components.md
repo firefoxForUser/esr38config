@@ -32,7 +32,10 @@
 <br>
 <br>
 #### 4. [Complete Themes](https://addons.mozilla.org/en-us/firefox/complete-themes/) (ранее просто Темы) <br>
-Полноценные темы.
+Полноценные темы. Если темы не подходят, то смотрите в разделе версий более старые.
+[MicroFox for Firefox](https://addons.mozilla.org/ru/firefox/addon/microfox-for-firefox/) - компактная тема
+[Classic Compact](https://addons.mozilla.org/en-us/firefox/addon/classic-compact/) - ещё компастная
+[NASA Night Launch](https://addons.mozilla.org/en-us/firefox/addon/nasa-night-launch/) - одна из популярнейших тем
 <br>
 <br>
 #### 5. [Custom Buttons](https://addons.mozilla.org/ru/firefox/addon/custom-buttons/)
