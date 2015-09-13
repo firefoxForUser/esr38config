@@ -30,3 +30,4 @@
 
 [Form History Control](https://addons.mozilla.org/en-US/firefox/addon/form-history-control/) -- управление историей введенного текста в поля поиска, поляы форм и т.д. Чтобы случайно не потерять.
 
+[Random Agent Spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/). Меняет юзер-агенты по таймеру и с дополнительными фичами, препятствующими фингерпринтингу. Версия с GitHub имеет расширенную функциональность по сравнению с версией с AMO (см. описание на AMO).
