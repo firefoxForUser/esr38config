@@ -1,0 +1,53 @@
+/*
+ * hide_flashplugin_message_popup
+ *
+ * скрывает сообщение "для просмотра содержимого нужен FlashPlugin"
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+  notification[value="plugin-hidden"] {
+   display: none !important;
+}
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/*
+ * hide_flashplugin_message_popup
+ * разместить вкладки под адресной строкой.
+ * при добавлении новых панелей нужное значение может меняться
+ * 
+ */
+#TabsToolbar {
+	-moz-box-ordinal-group: 2 !important;
+}
+#addon-bar {
+	-moz-box-ordinal-group: 3 !important;
+}
+
+/*
+ * fix tab border for MicroFox for Firefox them
+ * and Classic Them Restorer (tab not on top)
+ * https://addons.mozilla.org/ru/firefox/addon/microfox-for-firefox/
+ * tested on Firefox 38 ESR
+ */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#TabsToolbar #tabbrowser-tabs tab.tabbrowser-tab
+{
+  border: 1px black outset !important;
+}
+
+/*
+ * 	Awesome bar, Seach box - Increase font size 
+ * 
+ */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.urlbar-input-box,
+.searchbar-textbox
+{
+
+  font-size: 14.5px !important;
+
+}
