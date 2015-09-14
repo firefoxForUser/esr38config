@@ -35,13 +35,13 @@
 
 Перезагружайте Firefox даже, если в описании дополнения написано "без перезагрузки", бывает не всё работает.
 
-[ADDONS_MUST_HAVE.md](esr38config/ADDONS_MUST_HAVE.md) - список необходимых дополнений, то что и так должно было быть в Firefox.
+[ADDONS_MUST_HAVE.md](addons/ADDONS_MUST_HAVE.md) - список необходимых дополнений, то что и так должно было быть в Firefox.
 
-[ADDONS_GOOD.md](esr38config/ADDONS_GOOD.md) - список дополнений, не необходимых, но делающих использование Firefox очень удобным.
+[ADDONS_GOOD.md](addons/ADDONS_GOOD.md) - список дополнений, не необходимых, но делающих использование Firefox очень удобным.
 
-[ADDONS_SPEC_INSTRUMENTS.md](esr38config/ADDONS_SPEC_INSTRUMENTS.md) - специальные инструменты-дополнения, очень помогающие в некоторых случаях копировать, искать, автоматизировать задачи и т.д.
+[ADDONS_SPEC_INSTRUMENTS.md](addons/ADDONS_SPEC_INSTRUMENTS.md) - специальные инструменты-дополнения, очень помогающие в некоторых случаях копировать, искать, автоматизировать задачи и т.д.
 
-[ADDONS_DEV.md](esr38config/ADDONS_DEV.md) - статья с описанием подборки дополнений для разработчика.
+[ADDONS_DEV.md](addons/ADDONS_DEV.md) - статья с описанием подборки дополнений для разработчика.
 
 #### Ссылки
 
