@@ -22,7 +22,8 @@
 <br>
 <br>
 #### 2. Пользовательские скрипты <br>
-[Scriptish](https://addons.mozilla.org/en-us/firefox/addon/scriptish) или [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий.
+[Scriptish](https://addons.mozilla.org/en-us/firefox/addon/scriptish) или [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. <br>
+В Firefox есть встроенные возможности применять пользовательские скрипты, но они менее удобные и имеют меньше возможностей. Например: [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
 Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
 [Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting)
 <br>
@@ -79,4 +80,12 @@
 <br>
 #### 11. [Services](https://activations.cdn.mozilla.net/en-US/) (интеграция с соц. сетями, Social API) <br>
 Некая интеграция с соц. сетями и некоторыми другими сервисами. Представляет собой белый список сайтов из которых вы можете добавить сервисы. Сами сервисы представляют собой страницы, которые вы можете открыть нажав на кнопку-самолетик в Firefox. Возможно ещё уведомления о событиях, рассылка приглашений на сервис друзьям и подобное. Ненужное излишество, которое полностью заменяется обычным входом в эти соц. сети.
-
+<br>
+<br>
+#### 12. Встроенные [инструменты разработчика Firefox](https://developer.mozilla.org/ru/docs/Tools) <br>
+Очень мощный инструмент с помощью которого можно искать ссылки на контент, менять стили страницы, снимать скриншот целой страницы и т.д.
+Часть инструментов может подгружаться и устанавливаться при их активации, как [WebIDE](https://developer.mozilla.org/ru/docs/Tools/WebIDE) для разработки приложений. <br>
+А такие, как [Firefox OS Simulator](https://ftp.mozilla.org/pub/labs/fxos-simulator/) устанавливаются, как дополнения. <br>
+В специальной сборке Firefox от Mozilla основанной на тестовой версии Firefox [Firefox Developer Edition](https://www.mozilla.org/ru/firefox/developer/) инструменты разработчика имеют более удобный интерфейс и возможно дополнительные возможности.
+#### 13. [Профили](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data) <br>
+(будет описано)
