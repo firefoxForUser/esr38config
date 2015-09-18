@@ -48,8 +48,7 @@
 Куски кода на javascript и xml, которые встраиваются в сам Firefox. Это основное преимущество Firefox. Ими вы можете добавить практически любую функциональность или изменить внешний вид Firefox.
 <br>
 <br>
-#### 7. Словари проверки орфографии и дополнения для них. <br>
-[Репозиторий Mozilla](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
+#### 7. [Словари проверки орфографии и дополнения для них](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
 [Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
 [English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) (совмещённый русский и английский)<br>
 <br>
