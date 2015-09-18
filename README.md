@@ -11,6 +11,10 @@
 * А ещё лучше [Tails](https://tails.boum.org/) запущенный в [VirtualBox](https://www.virtualbox.org/wiki/Downloads) или с диска.
 * [Whonix](https://www.whonix.org/)
 
+#### Компоненты Firefox
+
+[components.md](components.md) - плагины, дополнения, стили, скрипты, профили и т.д., краткое описание всего.
+
 #### Файлы настроект приложения
 
 [FirefoxPortable.ini](FirefoxPortable.ini) - файл от портативной версии Firefox, конфигурация запуска.
