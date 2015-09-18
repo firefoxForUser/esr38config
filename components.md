@@ -54,7 +54,8 @@
 <br>
 <br>
 #### 8. [Поисковые движки](https://addons.mozilla.org/en-US/firefox/search/?atype=4) и дополнения для них <br>
-Это список поисковых систем в панеле поиска. <br>
+Это список поисковых систем в панеле поиска.
+
 [Неофициальный репозиторий](http://mycroftproject.com/) <br>
 [Add to Search Bar](https://addons.mozilla.org/en-us/firefox/addon/add-to-search-bar) - с его помощью можно добавить поисковые движки в список самому. <br>
 и др.
