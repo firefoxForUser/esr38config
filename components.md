@@ -23,7 +23,7 @@
 <br>
 #### 2. Пользовательские скрипты <br>
 [Scriptish](https://addons.mozilla.org/en-us/firefox/addon/scriptish) или [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. <br>
-В Firefox есть встроенные возможности применять пользовательские скрипты, но они менее удобные и имеют меньше возможностей. Например: [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/)
+В Firefox есть встроенные возможности применять пользовательские скрипты, но они менее удобные и имеют меньше возможностей. Например: [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) <br>
 Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
 [Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting)
 <br>
