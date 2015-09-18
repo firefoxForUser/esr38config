@@ -54,7 +54,6 @@
 <br>
 <br>
 #### 8. [Поисковые движки](https://addons.mozilla.org/en-US/firefox/search/?atype=4) и дополнения для них <br>
-[Репозиторий Mozilla](https://addons.mozilla.org/en-US/firefox/search/?atype=4) <br>
 [Неофициальный репозиторий](http://mycroftproject.com/) <br>
 [Add to Search Bar](https://addons.mozilla.org/en-us/firefox/addon/add-to-search-bar) <br>
 и др.
