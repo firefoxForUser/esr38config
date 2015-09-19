@@ -8,7 +8,7 @@
 #### Основные
 
 [Disconnect](https://search.disconnect.me/) - веб-прокси для поисковиков (Google и т.д.). Вырезает сбор статистики. <br>
-[DuckDuckGo (HTTPS / SSL)](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-ssl) - открытый поисковик не собирающий статистику. <br>
+[DuckDuckGo (HTTPS / SSL)](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-ssl) - агрегатор из разных поисковиков, не собирающий статистику. <br>
 [Startpage (SSL)](https://addons.mozilla.org/en-US/firefox/addon/startpage-ssl) - прокси для Google, не собирает статистику, имеет веб-прокси, ограничивает неприемлемые поисковые запросы цензурой. <br>
 [onion.city](http://onion.city), [onion.cab](https://onion.cab/) - поиск по сети Tor и просмотр сайтов сети Tor через веб-прокси. <br>
 [grams](https://en.wikipedia.org/wiki/Grams_%28search%29)  - поисковик по Tor.
