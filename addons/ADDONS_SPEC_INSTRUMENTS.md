@@ -28,6 +28,8 @@
 
 [ChatZilla](https://addons.mozilla.org/en-US/firefox/addon/chatzilla/) - IRC клиент.
 
-[Form History Control](https://addons.mozilla.org/en-US/firefox/addon/form-history-control/) -- управление историей введенного текста в поля поиска, поляы форм и т.д. Чтобы случайно не потерять.
+[Form History Control](https://addons.mozilla.org/en-US/firefox/addon/form-history-control/) - управление историей введенного текста в поля поиска, поля форм и т.д. Чтобы случайно не потерять.
 
 [Random Agent Spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/). Меняет юзер-агенты по таймеру и с дополнительными фичами, препятствующими фингерпринтингу. Версия с GitHub имеет расширенную функциональность по сравнению с версией с AMO (см. описание на AMO).
+
+[Lazarus: Form Recovery](https://addons.mozilla.org/ru/firefox/addon/lazarus-form-recovery/) - сохранение данных введенных в формы, защита от случайного удаления и работа с ними.
