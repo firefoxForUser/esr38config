@@ -572,10 +572,10 @@ user_pref("layers.acceleration.disabled", true);
 //***** Установить (раскомментировать) по желанию
 
 /*
- * решение проблемы периодического падения Firefox
+ * решение проблемы периодического падения Firefox (наблюдалось в Firefox ESR 38)
  * отключение асинхронной анимации
  */
-//user_pref("layers.offmainthreadcomposition.enabled", false);
+user_pref("layers.offmainthreadcomposition.enabled", false);
 
 /*
  * Отключение режима, при котором при восстановлении сессии
