@@ -17,10 +17,14 @@
  *
  * перестанут работать проприетарные сервисы продажи защищенного видео
  */
+// Отключает поддержку Encrypted Media Extensions (DRM для HTML5-видео).
 user_pref("media.eme.enabled", false);
-user_pref("browser.eme.ui.enabled", false);
 user_pref("media.eme.apiVisible", false);
+// Отключает предложения включить EME.
+// https://hg.mozilla.org/releases/mozilla-esr38/file/704989f295eb/browser/base/content/browser-eme.js#l55
+user_pref("browser.eme.ui.enabled", false);
 user_pref("media.gmp-eme-adobe.enabled", false);
+user_pref("media.gmp-eme-adobe.autoupdate", false);
 
 /*
  * Ждать пока пользователь не нажмёт кнопку "играть" для html5 video
