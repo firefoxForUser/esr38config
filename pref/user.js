@@ -6,7 +6,7 @@
  *
  * некоторые устаревшие настройки тут есть, так как иногда они
  * оказываются рабочими хотя не должны
-*/
+ */
 
 //******************************************************************************
 //******************************** Связано с медиа
@@ -34,6 +34,10 @@ user_pref("media.autoplay.enabled", false);
  */
 user_pref("media.video_stats.enabled", false);
 
+// Отключает <a ping>, которые отправляют запрос по отдельному указанному адресу (с целью трекинга)
+// при нажатии на ссылку. -- http://kb.mozillazine.org/Browser.send_pings
+user_pref("browser.send_pings", false);
+
 /*
  * Отключить функции WebRTC и PeerConnection. Она позволяет определить IP за NAT.
  * После отключения не будет работать видеосвязь.
@@ -52,8 +56,9 @@ user_pref("intl.locale.matchOS", false);
  * Принимать куки только с посещаемого сайта.
  * (не принимать от других, 3-их сторон)
  * Могут быть проблемы с некоторыми сайтами, но очень редко.
+ * с блокировкой реклымы вроде uBlock Origin или AdBlock Plus это не особо нужно
  */
-user_pref("network.cookie.cookieBehavior", 1);
+//user_pref("network.cookie.cookieBehavior", 1);
 
 /*
  * Посылать DNS запросы для соединений через прокси socks
@@ -199,12 +204,15 @@ user_pref("browser.pocket.enabled", false);
  */
 user_pref("browser.search.suggest.enabled", false);
 
-/*
- * Отключить блокирования трекинга (список для него подгружается).
- */
+// Отключает мозилловский анти-трекинговый список, который дублирует функции uBlock с соответствующими
+// подписками и является менее эффективным (т.к. основан на списке от Disconnect).
+// https://support.mozilla.org/en-US/kb/tracking-protection-firefox
+// https://wiki.mozilla.org/Polaris
 user_pref("privacy.trackingprotection.enabled", false);
+user_pref("privacy.trackingprotection.pbmode.enabled", false);
 user_pref("browser.trackingprotection.updateURL", "");
 user_pref("browser.trackingprotection.gethashURL", "");
+user_pref("browser.polaris.enabled", false);
 
 /*
  * Отключить автообновление.
