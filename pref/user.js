@@ -170,7 +170,18 @@ user_pref("dom.vibrator.enabled", false);
 /*
  * Отключить API геолокации.
  */
+// Отключает геолокацию через сервисы Гугла с присвоением клиентскому компьютеру уникального
+// идентификатора и передачей в Гугл информации о близлежащих точках доступа Wi-Fi.
+// https://www.mozilla.org/en-US/firefox/geolocation/
 user_pref("geo.enabled", false);
+user_pref("geo.wifi.logging.enabled", false);
+// https://hg.mozilla.org/releases/mozilla-esr38/file/7bc0140f0bfe/dom/system/NetworkGeolocationProvider.js#l488
+user_pref("geo.wifi.uri", "");
+// https://hg.mozilla.org/releases/mozilla-esr38/file/7bc0140f0bfe/dom/system/NetworkGeolocationProvider.js#l21
+// https://hg.mozilla.org/releases/mozilla-esr38/file/7bc0140f0bfe/dom/system/NetworkGeolocationProvider.js#l233
+user_pref("geo.wifi.scan", false);
+user_pref("geo.cell.scan", false);
+user_pref("geo.wifi.timeToWaitBeforeSending", 630720000); // 20 лет.
 
 /*
  * Отключить API сенсоров.
@@ -314,10 +325,15 @@ user_pref("browser.aboutHomeSnippets.updateUrl", "");
 
 /*
  * Отключаем интеграцию с соц. сетями.
+ * Отключает Social API и новую кнопку для перепостов в соцсети.
  */
+user_pref("social.enabled", false);
 user_pref("social.remote-install.enabled", false);
-user_pref("social.share.activationPanelEnabled", false);
 user_pref("social.toast-notifications.enabled", false);
+user_pref("social.directories", "");
+user_pref("social.whitelist", "");
+user_pref("social.share.activationPanelEnabled", false);
+user_pref("social.shareDirectory", "");
 
 /*
  * Воспроизводить медиа через плагины только по клику на содержимое.
