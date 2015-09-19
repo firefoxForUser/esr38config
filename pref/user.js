@@ -75,6 +75,7 @@ user_pref("network.prefetch-next", false);
  * Отключение предзагрузки dns ресурсов.
  */
 user_pref("network.dns.disablePrefetch", true);
+user_pref("network.dns.disablePrefetchFromHTTPS", true);
 
 /*
  * Отключаем ещё один вид предзагрузки "прогрев соединения".
@@ -198,6 +199,10 @@ user_pref("dom.gamepad.enabled", false);
  * pocket в ESR версии 38 нету, но на всякий случай.
  */
 user_pref("browser.pocket.enabled", false);
+
+// Отключает загрузку URL из буфера обмена по нажатию на колесо в Linux, которая мешает при
+// промахах мимо ссылок и случайных кликах по колесу.
+user_pref("middlemouse.contentLoadURL", false);
 
 /*
  * Отключить поисковые предложения для незавершенных запросов.
