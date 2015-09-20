@@ -44,3 +44,5 @@
 
 [Toolbar Buttons](https://addons.mozilla.org/ru/firefox/addon/toolbar-buttons) - набор кнопок с многими простыми, но полезными функциями. Часто их можно использовать через меню, но кнопок для них нет.
 
+[Searchbar Autosizer](https://addons.mozilla.org/en-us/firefox/addon/searchbar-autosizer/) - автоувеличение строки поиска при наборе длинных запросов, автоудаление текста запроса после его поиска.
+
