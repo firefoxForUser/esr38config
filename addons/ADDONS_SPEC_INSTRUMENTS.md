@@ -36,3 +36,4 @@
 
 [Quick Search Bar](https://addons.mozilla.org/en-us/firefox/addon/quicksearch/) - добавляет в строку поиска ярлыки для выбора поисковиков для быстрого переключения.
 
+[Advanced Search](https://addons.mozilla.org/en-US/firefox/addon/search-this-site) - добавляет меню для популярных поисковиков с выбором команд для поисковика: поиск по сайту, поиск определенных типов файлов (`site:my.site.com`, `filetype:pdf` и подобные).
