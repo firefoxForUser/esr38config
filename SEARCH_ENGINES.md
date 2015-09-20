@@ -43,7 +43,7 @@ not Evil - поисковик по Tor.
 
 [youtube](https://www.youtube.com/) <br>
 https://vimeo.com/ - аналог youtube <br>
-[Yandex.Music](https://music.yandex.ru/) - русская и зарубежная музыка.
+[Yandex.Music](https://music.yandex.ru/) - русская и зарубежная музыка. <br>
 www.last.fm - музыкальный каталог
 
 #### Литература
