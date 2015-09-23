@@ -51,6 +51,10 @@ user_pref("browser.send_pings", false);
 //******************************************************************************
 //******************************** Неявный сбор статистики и утечки данных
 
+// Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons.
+// https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections#w_add-on-list-prefetching
+user_pref("extensions.webservice.discoverURL", "");
+
 // Запрещает расширение WebGL, позволяющее узнать модель видеокарты пользователя и ее драйвер.
 // https://www.mail-archive.com/dev-platform@lists.mozilla.org/msg14121.html
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1171228
