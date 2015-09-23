@@ -46,3 +46,5 @@
 
 [Searchbar Autosizer](https://addons.mozilla.org/en-us/firefox/addon/searchbar-autosizer/) - автоувеличение строки поиска при наборе длинных запросов, автоудаление текста запроса после его поиска.
 
+[More Tools Menu](https://addons.mozilla.org/en-US/firefox/addon/more-tools-menu/) - переносит пункты из меню инструменты в отдельное меню, чтобы не путались с встроенными функциями браузера.
+
