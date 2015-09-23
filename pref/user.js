@@ -51,6 +51,16 @@ user_pref("browser.send_pings", false);
 //******************************************************************************
 //******************************** Неявный сбор статистики и утечки данных
 
+// Запрещает расширение WebGL, позволяющее узнать модель видеокарты пользователя и ее драйвер.
+// https://www.mail-archive.com/dev-platform@lists.mozilla.org/msg14121.html
+// https://bugzilla.mozilla.org/show_bug.cgi?id=1171228
+// https://hg.mozilla.org/releases/mozilla-beta/file/8cf5636886f0/dom/canvas/WebGLContextState.cpp#l195
+// https://hg.mozilla.org/releases/mozilla-beta/file/8cf5636886f0/dom/canvas/WebGLContextExtensions.cpp#l99
+user_pref("webgl.disable-debug-renderer-info", true);
+// Запрещает передачу сайтам подробной информации о графических возможностях системы.
+user_pref("webgl.disable-extensions", true);
+user_pref("webgl.min_capability_mode", true);
+
 /*
  * Использовать локаль из general.useragent.locale, а не установленную в ОС.
  */
@@ -394,6 +404,7 @@ user_pref("extensions.update.enabled", false);
  * Отключение просмотра pdf в браузере.
  */
 user_pref("pdfjs.disabled", true);
+user_pref("pdfjs.enableWebGL", false);
 
 /*
  * Устанавливаем размер кэша в 0.
