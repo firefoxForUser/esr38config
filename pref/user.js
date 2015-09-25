@@ -620,6 +620,12 @@ user_pref("layers.acceleration.disabled", true);
 //***** Установить (раскомментировать) по желанию
 
 /*
+ * отключаем всплывающее окно с зпросом оповещения, это может быть звук, вибро и т.д.
+ * https://developer.mozilla.org/en-US/docs/Web/API/notification
+ */
+//user_pref("dom.webnotifications.enabled", false);
+
+/*
  * решение проблемы периодического падения Firefox (наблюдалось в Firefox ESR 38)
  * отключение асинхронной анимации
  */
