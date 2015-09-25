@@ -12,13 +12,17 @@
 
 #### Статьи от Mozilla
 
-[WebAPI](https://wiki.mozilla.org/WebAPI) - список API который реализовала или собирается Mozilla.
+[WebAPI](https://wiki.mozilla.org/WebAPI) - wiki, список API который реализовала или собирается Mozilla.
+
+[WebAPI](https://developer.mozilla.org/en-US/docs/Web/API)
 
 [Adding Extensions using the Windows Registry](https://developer.mozilla.org/en-US/docs/Adding_Extensions_using_the_Windows_Registry) - cписок ключей реестра Windows где Firefox ищет плагины
 
 [О плагинах](https://developer.mozilla.org/en-US/Add-ons/Plugins/Gecko_Plugin_API_Reference/Plug-in_Basics) - где расположены в разных системах, с примерами кода их определения и использования.
 
 [Command Line Options](https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options) - список опций командной строки, создание, переключение профиля, открытие ссылок, запуск в приватном режиме, установка дополнений и тем, запуск с определенной локализацией и т.д.
+
+[Дополнительные и эксперементальные CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Mozilla_Extensions)
 
 #### Ресурсы Mozilla
 
