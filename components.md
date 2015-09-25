@@ -89,3 +89,9 @@
 В специальной сборке Firefox от Mozilla основанной на тестовой версии Firefox [Firefox Developer Edition](https://www.mozilla.org/ru/firefox/developer/) инструменты разработчика имеют более удобный интерфейс и возможно дополнительные возможности.
 #### 13. [Профили](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data) <br>
 (будет описано)
+#### 14. [Локализации](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
+Пакеты переводов на разные языки. Пункт появляется в меню дополнений. <br>
+Для версии ESR внизу сайта есть пунки "версии", где можно подобрать подходящую.
+Для переключения на другой язык нужно установить параметр: <br>
+general.useragent.locale = ru-RU - для русского
+general.useragent.locale = en-US - для английского США
