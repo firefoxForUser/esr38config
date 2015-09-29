@@ -9,3 +9,4 @@
 [FirePath](https://addons.mozilla.org/en-US/firefox/addon/firepath) - позволяет ахдить, проверять, редактировать XPath, CSS и JQuery селекторы. <br>
 [Javascript Deminifier](https://addons.mozilla.org/en-US/firefox/addon/javascript-deminifier/) - красиво формотирует javascript код. <br>
 [CSS Usage](https://addons.mozilla.org/en-US/firefox/addon/css-usage/) - просмотр стилей и информации о них. <br>
+[Tiny JavaScript Debugger](https://addons.mozilla.org/en-US/firefox/addon/tiny-javascript-debugger) - дебагер javascript
