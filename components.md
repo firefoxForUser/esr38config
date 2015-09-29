@@ -71,12 +71,9 @@ userContent.css - для стилей страниц
 </handlers>
 </bindings>
 ```
-
-<br>
 <br>
 #### 3. [Themes](https://addons.mozilla.org/en-US/firefox/themes/) (ранее Personas) <br>
 Легковесные темы. Хранятся в кэше браузера и при смене или очистке кэша подгружаются из интернета.
-<br>
 <br>
 #### 4. [Complete Themes](https://addons.mozilla.org/en-us/firefox/complete-themes/) (ранее просто Темы) <br>
 Полноценные темы. Если темы не подходят, то смотрите в разделе версий более старые. Если цвета тем не совместимы с цветами фонов и надписей, то можно править через CSS или [Tab Mix Plus](https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus) <br>
