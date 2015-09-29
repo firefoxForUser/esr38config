@@ -29,7 +29,7 @@ CSS стили можно применять к элементам интерф�
 <br>
 userChrome.css - для стилей интерфейса Firefox
 <br>
-userContent.css - для стилей страниц
+userContent.css - для стилей страниц <br>
 Больше можно почитать тут:
 [userContent.css](http://kb.mozillazine.org/UserContent.css),
 [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css),
