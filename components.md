@@ -53,8 +53,7 @@ userContent.css - для стилей страниц
 <br>
 Репозиторий bookmarklets на который ссылается поддержка mozilla [marklets.com](http://marklets.com)
 <br>
-###### 2.4 CSS свойство [-moz-binding](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-binding)
-<br>
+###### 2.4 CSS свойство [-moz-binding](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-binding) <br>
 Через это свойство можно привязать .xml файл с кодом javascript, который исполнится. Это называется [XBL bindings](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Using_XBL_from_stylesheets)
 
 ```
