@@ -69,7 +69,6 @@ userContent.css - для стилей страниц <br>
 </handlers>
 </bindings>
 ```
-<br>
 #### 3. [Themes](https://addons.mozilla.org/en-US/firefox/themes/) (ранее Personas) <br>
 Легковесные темы. Хранятся в кэше браузера и при смене или очистке кэша подгружаются из интернета. <br>
 #### 4. [Complete Themes](https://addons.mozilla.org/en-us/firefox/complete-themes/) (ранее просто Темы) <br>
@@ -88,7 +87,6 @@ userContent.css - для стилей страниц <br>
 #### 7. [Словари проверки орфографии и дополнения для них](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
 [Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
 [English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) (совмещённый русский и английский)
-<br>
 <br>
 #### 8. [Поисковые движки](https://addons.mozilla.org/en-US/firefox/search/?atype=4) и дополнения для них <br>
 Это список поисковых систем в панеле поиска. <br>
