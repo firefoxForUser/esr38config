@@ -6,7 +6,7 @@
 [FireStorage Plus!](https://addons.mozilla.org/en-US/firefox/addon/firestorage-plus) - дополнение для FireBug для инспекции HTML5 Local Storage и подобного. <br>
 [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) - много инструментов, от линейки до автоформатирования javascript, отключения куков, css, валидации и др. <br>
 [ColorZilla](https://addons.mozilla.org/en-US/firefox/addon/colorzilla) - инструменты для подборки цветов. <br>
-[FirePath](https://addons.mozilla.org/en-US/firefox/addon/firepath) - позволяет ахдить, проверять, редактировать XPath, CSS и JQuery селекторы. <br>
+[FirePath](https://addons.mozilla.org/en-US/firefox/addon/firepath) - дополнение для FireBub, позволяет ахдить, проверять, редактировать XPath, CSS и JQuery селекторы. <br>
 [Javascript Deminifier](https://addons.mozilla.org/en-US/firefox/addon/javascript-deminifier/) - красиво формотирует javascript код. <br>
-[CSS Usage](https://addons.mozilla.org/en-US/firefox/addon/css-usage/) - просмотр стилей и информации о них. <br>
+[CSS Usage](https://addons.mozilla.org/en-US/firefox/addon/css-usage/) - дополнение для FireBub, просмотр стилей и информации о них. <br>
 [Tiny JavaScript Debugger](https://addons.mozilla.org/en-US/firefox/addon/tiny-javascript-debugger) - дебагер javascript
