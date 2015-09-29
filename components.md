@@ -17,8 +17,7 @@ CSS стили можно применять к элементам интерф�
 [InspectorWidget](https://addons.mozilla.org/en-us/firefox/addon/inspectorwidget), 
 [Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
 <br>
-###### 1.1 Дополнения для пользовательских стилей
-<br>
+###### 1.1 Дополнения для пользовательских стилей <br>
 Дополнение могут предоставлять дополнительные правила для стилей.
 <br>
 [Stylish](https://addons.mozilla.org/en-us/firefox/addon/stylish) - позволяет менять интерфейс Firefox или любую сраницу с помощью CSS стилей. Дополнение для Stylish [Stylish-Custom](https://addons.mozilla.org/ru/firefox/addon/stylish-custom).
