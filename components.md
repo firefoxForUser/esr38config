@@ -3,12 +3,13 @@
 Дополнения и функции настолько важные, что их можно выделить в отдельный пункт. Или выделенные в отдельные категории самой Mozilla.
 <br>
 <br>
-#### 1. Пользовательские стили <br>
-[Stylish](https://addons.mozilla.org/en-us/firefox/addon/stylish) - позволяет менять интерфейс Firefox или любую сраницу с помощью CSS стилей. Много готовых стилей на http://userstyles.org
+#### 1. Пользовательские стили
 <br>
-Также, есть и другие дополнения для управления стилями или расширения возможностей Stylish: <br>
-[User Style Manager](https://addons.mozilla.org/ru/firefox/addon/user-style-manager/), 
-[Stylish-Custom](https://addons.mozilla.org/ru/firefox/addon/stylish-custom).
+CSS стили можно применять к элементам интерфейса Firefox или к страницам сайтов.
+<br>
+Много готовых стилей на http://userstyles.org
+<br>
+Стили устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
 <br>
 Для поиска элементов интерфейса браузера и изменения их стиля: <br>
 [DOM Inspector](https://addons.mozilla.org/en-us/firefox/addon/dom-inspector-6622/), 
@@ -16,16 +17,65 @@
 [InspectorWidget](https://addons.mozilla.org/en-us/firefox/addon/inspectorwidget), 
 [Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
 <br>
-Можно использовать стили и без дополнений, используя специальный конфигаруционный файл для них, но возможностей будет меньше.
+###### 1.1 Дополнения для пользовательских стилей
 <br>
-Стили устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
+Дополнение могут предоставлять дополнительные правила для стилей.
+<br>
+[Stylish](https://addons.mozilla.org/en-us/firefox/addon/stylish) - позволяет менять интерфейс Firefox или любую сраницу с помощью CSS стилей. Дополнение для Stylish [Stylish-Custom](https://addons.mozilla.org/ru/firefox/addon/stylish-custom).
+<br>
+[User Style Manager](https://addons.mozilla.org/ru/firefox/addon/user-style-manager/)
+<br>
+###### 1.2 [Конфигурационный файл](http://www-archive.mozilla.org/unix/customizing.html) <br>
+Существует два файла для css стилей.
+<br>
+userChrome.css - для стилей интерфейса Firefox
+<br>
+userContent.css - для стилей страниц
+Больше можно почитать тут:
+[userContent.css](http://kb.mozillazine.org/UserContent.css),
+[userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css),
+[Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078),
 <br>
 <br>
 #### 2. Пользовательские скрипты <br>
-[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - позволяет писать собственные скрипты и использовать их на сайтах. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. <br>
-В Firefox есть встроенные возможности применять пользовательские скрипты, но они менее удобные и имеют меньше возможностей. Например: [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) <br>
+Это javascript внедряемый на страницу. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. Существует несколько способов использовать такой скрипт. <br>
 Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. <br>
-[Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting)
+[Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting) <br>
+###### 2.1 Дополнения для пользовательских скриптов <br>
+[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - расширяет возможности стандартного javascript дополнительными функциями. Имеет удобный менеджер для управления скриптами. <br>
+Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. <br>
+###### 2.2 Специальный конфигурационный файл mozilla.cfg
+<br>
+Можно создать этот файл и прописать там скрит. Подробнее [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) <br>
+###### 2.3 [bookmarklets](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) <br>
+Это javascript кода добавленный в закладки, он может встраиваться в страницу или запускаться по нажатию закладки. Поддерживается всеми браузерами. Для создания нужно написать код в месте, где находится ссылка. <br>
+Основан на свойстве тега `a` в котором может находиться встроенный скрипт. <br>
+``javascript:(function(){
+	alert('Hello');
+})()``
+<br>
+Репозиторий bookmarklets на который ссылается поддержка mozilla [marklets.com](http://marklets.com)
+<br>
+###### 2.4 CSS свойство [-moz-binding](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-binding)
+<br>
+Через это свойство можно привязать .xml файл с кодом javascript, который исполнится. Это называется [XBL bindings](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Using_XBL_from_stylesheets)
+
+```
+/* css файл */
+#alert-it { -moz-binding : url("somexbl.xml#alert-it"); }
+/* xml файл */
+<?xml version="1.0"?>
+<bindings xmlns="http://www.mozilla.org/xbl">
+<binding id="alert-it">
+<content>
+	<children />
+</content>
+<handlers>
+	<handler event="mouseover" action="alert('Binding ok');"/>
+</handlers>
+</bindings>
+```
+
 <br>
 <br>
 #### 3. [Themes](https://addons.mozilla.org/en-US/firefox/themes/) (ранее Personas) <br>
@@ -97,15 +147,5 @@
 Для переключения интерфейса на другой язык нужно установить параметр: <br>
 general.useragent.locale = ru-RU - для русского <br>
 general.useragent.locale = en-US - для английского США <br>
-<br>
-<br>
-#### 14. [bookmarklets](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) <br>
-Это javascript кода добавленный в закладки, он может встраиваться в страницу или запускаться по нажатию закладки. Поддерживается всеми браузерами. Для создания нужно написать код в месте, где находится ссылка. <br>
-Основан на свойстве тега `a` в котором может находиться встроенный скрипт. <br>
-``javascript:(function(){
-	alert('Hello');
-})()``
-<br>
-Репозиторий bookmarklets на который ссылается поддержка mozilla [marklets.com](http://marklets.com)
 <br>
 <br>
