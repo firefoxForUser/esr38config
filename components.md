@@ -101,10 +101,11 @@ general.useragent.locale = en-US - для английского США <br>
 <br>
 #### 14. [bookmarklets](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) <br>
 Это javascript кода добавленный в закладки, он может встраиваться в страницу или запускаться по нажатию закладки. Поддерживается всеми браузерами. Для создания нужно написать код в месте, где находится ссылка. <br>
-Основан на свойстве тега a в котором может находиться встроенный скрипт.
-``(function(){
+Основан на свойстве тега `a` в котором может находиться встроенный скрипт. <br>
+``javascript:(function(){
 	alert('Hello');
 })()``
+<br>
 Репозиторий bookmarklets на который ссылается поддержка mozilla [marklets.com](http://marklets.com)
 <br>
 <br>
