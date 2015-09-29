@@ -43,8 +43,7 @@ userContent.css - для стилей страниц
 ###### 2.1 Дополнения для пользовательских скриптов <br>
 [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - расширяет возможности стандартного javascript дополнительными функциями. Имеет удобный менеджер для управления скриптами. <br>
 Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. <br>
-###### 2.2 Специальный конфигурационный файл mozilla.cfg
-<br>
+###### 2.2 Специальный конфигурационный файл mozilla.cfg <br>
 Можно создать этот файл и прописать там скрит. Подробнее [тут](https://developer.mozilla.org/en-US/Firefox/Enterprise_deployment#Configuration) и [тут](https://mike.kaply.com/2012/03/16/customizing-firefox-autoconfig-files/) <br>
 ###### 2.3 [bookmarklets](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) <br>
 Это javascript кода добавленный в закладки, он может встраиваться в страницу или запускаться по нажатию закладки. Поддерживается всеми браузерами. Для создания нужно написать код в месте, где находится ссылка. <br>
