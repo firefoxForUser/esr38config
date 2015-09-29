@@ -33,8 +33,7 @@ userContent.css - для стилей страниц
 Больше можно почитать тут:
 [userContent.css](http://kb.mozillazine.org/UserContent.css),
 [userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css),
-[Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078),
-<br>
+[Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078)
 <br>
 #### 2. Пользовательские скрипты <br>
 Это javascript внедряемый на страницу. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. Существует несколько способов использовать такой скрипт. <br>
