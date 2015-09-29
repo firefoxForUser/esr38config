@@ -3,8 +3,7 @@
 Дополнения и функции настолько важные, что их можно выделить в отдельный пункт. Или выделенные в отдельные категории самой Mozilla.
 <br>
 <br>
-#### 1. Пользовательские стили
-<br>
+#### 1. Пользовательские стили <br>
 CSS стили можно применять к элементам интерфейса Firefox или к страницам сайтов.
 <br>
 Много готовых стилей на http://userstyles.org
@@ -55,7 +54,6 @@ userContent.css - для стилей страниц <br>
 <br>
 ###### 2.4 CSS свойство [-moz-binding](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-binding) <br>
 Через это свойство можно привязать .xml файл с кодом javascript, который исполнится. Это называется [XBL bindings](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Using_XBL_from_stylesheets)
-
 ```
 /* css файл */
 #alert-it { -moz-binding : url("somexbl.xml#alert-it"); }
@@ -73,14 +71,12 @@ userContent.css - для стилей страниц <br>
 ```
 <br>
 #### 3. [Themes](https://addons.mozilla.org/en-US/firefox/themes/) (ранее Personas) <br>
-Легковесные темы. Хранятся в кэше браузера и при смене или очистке кэша подгружаются из интернета.
-<br>
+Легковесные темы. Хранятся в кэше браузера и при смене или очистке кэша подгружаются из интернета. <br>
 #### 4. [Complete Themes](https://addons.mozilla.org/en-us/firefox/complete-themes/) (ранее просто Темы) <br>
 Полноценные темы. Если темы не подходят, то смотрите в разделе версий более старые. Если цвета тем не совместимы с цветами фонов и надписей, то можно править через CSS или [Tab Mix Plus](https://addons.mozilla.org/en-us/firefox/addon/tab-mix-plus) <br>
 [MicroFox for Firefox](https://addons.mozilla.org/ru/firefox/addon/microfox-for-firefox/) - компактная тема <br>
 [Classic Compact](https://addons.mozilla.org/en-us/firefox/addon/classic-compact/) - ещё компактная <br>
 [NASA Night Launch](https://addons.mozilla.org/en-us/firefox/addon/nasa-night-launch/) - одна из популярнейших тем
-<br>
 <br>
 #### 5. [Custom Buttons](https://addons.mozilla.org/ru/firefox/addon/custom-buttons/)
 Создание программируемых кнопок, не настолько функциональных, как дополнения, но имеющих больше прав чем пользовательские скрипты. Есть уникальные по функционалу кнопки, которым нет аналогов среди дополнений.
