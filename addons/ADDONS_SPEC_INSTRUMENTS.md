@@ -37,3 +37,9 @@
 [Quick Search Bar](https://addons.mozilla.org/en-us/firefox/addon/quicksearch/) - добавляет в строку поиска ярлыки для выбора поисковиков для быстрого переключения.
 
 [Advanced Search](https://addons.mozilla.org/en-US/firefox/addon/search-this-site) - добавляет меню для популярных поисковиков с выбором команд для поисковика: поиск по сайту, поиск определенных типов файлов (`site:my.site.com`, `filetype:pdf` и подобные).
+
+[ChmFox](https://addons.mozilla.org/ru/firefox/addon/chmfox/) - просмотр .chm
+
+[Text Formatting Toolbar](https://addons.mozilla.org/ru/firefox/addon/text-formatting-toolbar/) - панель с кнопками для форматирования текста BBCode, Wiki, html. Можно создавать свои кнопки.
+
+[InlineDisposition](https://addons.mozilla.org/ru/firefox/addon/inlinedisposition/) - принудително устанавливает получаемому контенту атрибут inline и он открывается внутри браузера. Например видео с прямой ссылкой на сачивание можно по этой же ссылке открыть для просмотра. (скачать можно через меню по правой кнопке мыши)

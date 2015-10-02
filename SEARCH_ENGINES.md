@@ -43,6 +43,7 @@ not Evil - поисковик по Tor.
 
 [youtube](https://www.youtube.com/) <br>
 https://vimeo.com/ - аналог youtube <br>
+http://vevo.com/ - аналог youtube, просмотр доступен через прокси из США, Канаде, Германии, Бразилии, Австралии, Новой Зеландии, Италии, Франции, Испании, Голландии, Польше и Мексике <br>
 [Yandex.Music](https://music.yandex.ru/) - русская и зарубежная музыка. <br>
 www.last.fm - музыкальный каталог
 
