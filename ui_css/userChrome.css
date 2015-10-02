@@ -37,19 +37,15 @@
   border: 1px black outset !important;
 }
 
-/*
- * 	Awesome bar, Seach box - Increase font size 
- * 
- */
+/* Awesome bar, Seach box - Increase font size */
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 .urlbar-input-box,
-.searchbar-textbox
+.searchbar-textbox,
+#MMSearchTBTextbox
 {
-
   font-size: 14.5px !important;
-
 }
 
 /* Прячет доп. инфу о сертификате в адесной строке */

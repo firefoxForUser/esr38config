@@ -4,6 +4,7 @@
 
 [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/search/?atype=4) - официальный репозиторий от Mozilla. <br>
 [Mycroft Project](http://mycroftproject.com/) - проект собирающий поисковые движки и их рейтинг.
+[captaincaveman.nl](http://websearchpro.captaincaveman.nl/) - сайт дополнения Web Search Pro, где можно увидеть разные подборки поисковых движков.
 
 #### Основные
 
