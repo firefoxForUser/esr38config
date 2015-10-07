@@ -54,5 +54,7 @@
 
 [Update Scanner](https://addons.mozilla.org/ru/firefox/addon/update-scanner/) - отслеживает изменилась ли страница и сигнализирует об этом подсвечивая изменения желтым цветом.
 
+[GrabMyBooks](https://addons.mozilla.org/ru/firefox/addon/grabmybooks/) - сохранение страниц в ePub.
+
 [Grab and Drag](https://addons.mozilla.org/ru/firefox/addon/grab-and-drag/) - скролинг в стиле тачпада используя мышь. Полезно при больших страницах не помещающихся в дисплей.
 
