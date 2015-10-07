@@ -43,3 +43,16 @@
 [Text Formatting Toolbar](https://addons.mozilla.org/ru/firefox/addon/text-formatting-toolbar/) - панель с кнопками для форматирования текста BBCode, Wiki, html. Можно создавать свои кнопки.
 
 [InlineDisposition](https://addons.mozilla.org/ru/firefox/addon/inlinedisposition/) - принудително устанавливает получаемому контенту атрибут inline и он открывается внутри браузера. Например видео с прямой ссылкой на сачивание можно по этой же ссылке открыть для просмотра. (скачать можно через меню по правой кнопке мыши)
+
+[Mozilla Archive Format, with MHT and Faithful Save](https://addons.mozilla.org/ru/firefox/addon/mozilla-archive-format/) - открытие/сохранение в mht и maff формат.
+
+[FB2 Reader](https://addons.mozilla.org/ru/firefox/addon/fb2-reader/) - открытие файлов .fb2 формата, в том числе сжатых в .zip
+
+[EPUBReader](https://addons.mozilla.org/ru/firefox/addon/epubreader/?src=search) - просмр ePub файлов.
+
+[Lucifox](https://addons.mozilla.org/ru/firefox/addon/lucifox/) - открытие ePub файлов и каталогов OPDS (некое подобие rss и Atom).
+
+[Update Scanner](https://addons.mozilla.org/ru/firefox/addon/update-scanner/) - отслеживает изменилась ли страница и сигнализирует об этом подсвечивая изменения желтым цветом.
+
+[Grab and Drag](https://addons.mozilla.org/ru/firefox/addon/grab-and-drag/) - скролинг в стиле тачпада используя мышь. Полезно при больших страницах не помещающихся в дисплей.
+
