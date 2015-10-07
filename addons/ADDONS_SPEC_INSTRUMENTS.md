@@ -56,5 +56,7 @@
 
 [GrabMyBooks](https://addons.mozilla.org/ru/firefox/addon/grabmybooks/) - сохранение страниц в ePub.
 
+[Print Edit](https://addons.mozilla.org/ru/firefox/addon/print-edit/) - позволяет редактировать страницу перед печатью или сохранением, удаляя или изменяя ненужные блоки. Позволяет сохранить страницу в формате PDF. Добавляет кнопки для печати.
+
 [Grab and Drag](https://addons.mozilla.org/ru/firefox/addon/grab-and-drag/) - скролинг в стиле тачпада используя мышь. Полезно при больших страницах не помещающихся в дисплей.
 
