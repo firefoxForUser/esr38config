@@ -60,3 +60,5 @@
 
 [Grab and Drag](https://addons.mozilla.org/ru/firefox/addon/grab-and-drag/) - скролинг в стиле тачпада используя мышь. Полезно при больших страницах не помещающихся в дисплей.
 
+[SQLite Manager](https://addons.mozilla.org/ru/firefox/addon/sqlite-manager/) - менеджер SQLite базы данных.
+
