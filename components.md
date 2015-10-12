@@ -4,18 +4,23 @@
 <br>
 <br>
 #### 1. Пользовательские стили <br>
-CSS стили можно применять к элементам интерфейса Firefox или к страницам сайтов.
+CSS стили можно применять к элементам интерфейса Firefox или к страницам сайтов. <br>
+Много готовых стилей на http://userstyles.org <br>
+Стили устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. <br>
 <br>
-Много готовых стилей на http://userstyles.org
-<br>
-Стили устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют.
-<br>
-Для поиска элементов интерфейса браузера и изменения их стиля: <br>
+**Для поиска элементов** интерфейса браузера и изменения их стиля: <br>
 [DOM Inspector](https://addons.mozilla.org/en-us/firefox/addon/dom-inspector-6622/), 
 [Element Inspector](https://addons.mozilla.org/en-Us/firefox/addon/element-inspector), 
 [InspectorWidget](https://addons.mozilla.org/en-us/firefox/addon/inspectorwidget), 
-[Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
+[Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector) <br>
 <br>
+**Ссылки:** <br>
+[Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078) <br>
+[CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - CSS реализованные в Firefox. <br>
+[Mozilla CSS Extensions](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Mozilla_Extensions) - CSS специфичные для Firefox. <br>
+[Using CSS flexible boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) - использования flexible способа верстки. <br>
+[@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes), [CSS Animatable](http://www.w3schools.com/cssref/css_animatable.asp) - анимация в CSS.
+[htmlbook.ru](http://htmlbook.ru/css) - неполный перевод о CSS на русский
 ###### 1.1 Дополнения для пользовательских стилей <br>
 Дополнение могут предоставлять дополнительные правила для стилей.
 <br>
@@ -23,19 +28,15 @@ CSS стили можно применять к элементам интерф�
 <br>
 [User Style Manager](https://addons.mozilla.org/ru/firefox/addon/user-style-manager/)
 <br>
-###### 1.2 [Конфигурационный файл](http://www-archive.mozilla.org/unix/customizing.html) <br>
+###### 1.2 [Файлы конфигурации](http://www-archive.mozilla.org/unix/customizing.html) <br>
 Существует два файла для css стилей.
 <br>
-userChrome.css - для стилей интерфейса Firefox
+[userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css) - для стилей интерфейса Firefox
 <br>
-userContent.css - для стилей страниц <br>
-Больше можно почитать тут:
-[userContent.css](http://kb.mozillazine.org/UserContent.css),
-[userChrome.css](http://kb.mozillazine.org/index.php?title=UserChrome.css),
-[Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078)
+[userContent.css](http://kb.mozillazine.org/UserContent.css) - для стилей страниц <br>
 <br>
 #### 2. Пользовательские скрипты <br>
-Это javascript внедряемый на страницу. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. Существует несколько способов использовать такой скрипт. <br>
+Это javascript внедряемый на страницу. Например можно изменить поведение кнопок, автоматизировать действия и т.д. В интеренете много информации о том как писать и много уже готовых скриптов для различных действий. <br>
 Скрипты устанавливайте на свой риск, их в отличии от официальных дополнений не проверяют. <br>
 [Список сайтов с готовыми скриптами](http://wiki.greasespot.net/User_Script_Hosting) <br>
 ###### 2.1 Дополнения для пользовательских скриптов <br>
