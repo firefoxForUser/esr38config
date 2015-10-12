@@ -34,7 +34,8 @@ CSS стили можно применять к элементам интерф�
 [DOM Inspector](https://addons.mozilla.org/en-us/firefox/addon/dom-inspector-6622/), 
 [Element Inspector](https://addons.mozilla.org/en-Us/firefox/addon/element-inspector), 
 [InspectorWidget](https://addons.mozilla.org/en-us/firefox/addon/inspectorwidget), 
-[Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector) <br>
+[Stacked Inspector](https://addons.mozilla.org/en-US/firefox/addon/stacked-inspector)
+
 **Ссылки:** <br>
 [Уроки стилистики Firefox (CSS)](http://web.archive.org/web/20130928163532/https://forum.mozilla-russia.org/viewtopic.php?id=49078) <br>
 [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) - CSS реализованные в Firefox. <br>
