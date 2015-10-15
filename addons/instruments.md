@@ -62,3 +62,4 @@
 
 [SQLite Manager](https://addons.mozilla.org/ru/firefox/addon/sqlite-manager/) - менеджер SQLite базы данных.
 
+[NewsFox](https://addons.mozilla.org/ru/firefox/addon/newsfox/) - оффлайн читалка rss/Atom лент.
