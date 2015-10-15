@@ -64,5 +64,4 @@
 
 [NewsFox](https://addons.mozilla.org/ru/firefox/addon/newsfox/),
 [Brief](https://addons.mozilla.org/ru/firefox/addon/brief/),
-[Sage](https://addons.mozilla.org/ru/firefox/addon/sage/)
-- оффлайн читалки rss/Atom лент.
+[Sage](https://addons.mozilla.org/ru/firefox/addon/sage/) - оффлайн читалки rss/Atom лент.
