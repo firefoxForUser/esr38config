@@ -40,3 +40,4 @@
 
 [More Tools Menu](https://addons.mozilla.org/en-US/firefox/addon/more-tools-menu/) - переносит пункты из меню инструменты в отдельное меню, чтобы не путались с встроенными функциями браузера.
 
+[Clear Search Bar Text On Search](https://addons.mozilla.org/EN-us/firefox/addon/clear-search-bar-text/) - очищает строку поиска для поисковых системах после выполнения запроса. (вернуть можно по ctrl + Z)
