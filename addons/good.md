@@ -41,3 +41,6 @@
 [More Tools Menu](https://addons.mozilla.org/en-US/firefox/addon/more-tools-menu/) - переносит пункты из меню инструменты в отдельное меню, чтобы не путались с встроенными функциями браузера.
 
 [clear the search bar](https://addons.mozilla.org/EN-us/firefox/addon/clear-the-search-bar/) - очищает строку поиска для поисковых системах после выполнения запроса. (вернуть можно по ctrl + Z)
+
+[Advanced Locationbar](https://addons.mozilla.org/ru/firefox/addon/advanced-locationbar/) - позволяет переходить по частям ссылки в адресной строке. Переходить по частям в реальности не всегда получается из-за разных архитектур сайтов, но переходить на главную страницу сайта удобно. (чтобы сработало нужно держать ctrl и установить в настройках на постоянную работу)
+
