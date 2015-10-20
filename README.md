@@ -178,6 +178,3 @@ general.useragent.locale = en-US - для английского США
 
 [LINKS.md](LINKS.md) - полезные ссылки.
 
-#### Поисковые движки
-
-[SEARCH_ENGINES.md](SEARCH_ENGINES.md) - список поисковых движков и поисковых сервисов, которые можно добавить в поисковую панель Firefox.
