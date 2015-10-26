@@ -160,9 +160,9 @@ CSS стили можно применять к элементам интерф�
 ```-no-remote``` - эта часть команды используется очень часто и позволяет запускать одновременно несколько профилей.
 
 Ссылки: <br>
-[О файлах профиля в официально службе поддержки](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data)
-[О менеджре профилей](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles)
-[О профилях на kb.mozillazine.org](http://kb.mozillazine.org/Profile_folder)
+[О файлах профиля в официально службе поддержки](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data) <br>
+[О менеджре профилей](https://support.mozilla.org/en-US/kb/profile-manager-create-and-remove-firefox-profiles) <br>
+[О профилях на kb.mozillazine.org](http://kb.mozillazine.org/Profile_folder) <br>
 [Описание файлов профиля на kb.mozillazine.org](http://kb.mozillazine.org/Profile_folder_-_Firefox)
 
 #### 14. [Локализации](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
