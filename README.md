@@ -160,6 +160,14 @@ CSS стили можно применять к элементам интерф�
 general.useragent.locale = ru-RU - для русского <br>
 general.useragent.locale = en-US - для английского США
 
+#### 15. [Pocket](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
+
+Будет описано.
+
+#### 16. [Pocket](https://www.mozilla.org/en-US/firefox/hello/)
+
+Будет описано.
+
 ## Файлы настроек приложения
 
 [FirefoxPortable.ini](FirefoxPortable.ini) - файл от портативной версии Firefox, конфигурация запуска.
