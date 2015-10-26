@@ -172,7 +172,7 @@ CSS стили можно применять к элементам интерф�
 
 Будет описано.
 
-#### 18. [Настройки Firefox(about:config, prefs.js, user.js)](https://support.mozilla.org/en-US/kb/about-config-editor-firefox)
+#### 18. [Настройки Firefox](https://support.mozilla.org/en-US/kb/about-config-editor-firefox)(about:config, prefs.js, user.js)
 
 Будет описано.
 
