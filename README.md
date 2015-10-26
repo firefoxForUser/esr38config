@@ -164,7 +164,7 @@ general.useragent.locale = en-US - для английского США
 
 Будет описано.
 
-#### 16. [Pocket](https://www.mozilla.org/en-US/firefox/hello/)
+#### 16. [Firefox Hello](https://www.mozilla.org/en-US/firefox/hello/)
 
 Будет описано.
 
