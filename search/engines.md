@@ -8,9 +8,9 @@
 
 #### Основные
 
-[Disconnect](https://search.disconnect.me/) - веб-прокси для поисковиков (Google и т.д.). Вырезает сбор статистики. <br>
-[DuckDuckGo (HTTPS / SSL)](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-ssl) - агрегатор из разных поисковиков, не собирающий статистику. <br>
-[Startpage (SSL)](https://addons.mozilla.org/en-US/firefox/addon/startpage-ssl) - прокси для Google, не собирает статистику, имеет веб-прокси, ограничивает неприемлемые поисковые запросы цензурой. <br>
+[Disconnect](https://search.disconnect.me/) - веб-прокси для поисковиков (Google и т.д.). Вырезает сбор статистики, не банит ip (доступен из Tor). <br>
+[DuckDuckGo (HTTPS / SSL)](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-ssl) - агрегатор из разных поисковиков, по заялниям не собирающий статистику <br>
+[Startpage (SSL)](https://addons.mozilla.org/en-US/firefox/addon/startpage-ssl) - прокси для Google, не собирает статистику, имеет веб-прокси, ограничивает неприемлемые поисковые запросы цензурой (цензуру можно отключить в настройках на странице). <br>
 [onion.city](http://onion.city), [onion.cab](https://onion.cab/) - поиск по сети Tor и просмотр сайтов сети Tor через веб-прокси. <br>
 [grams](https://en.wikipedia.org/wiki/Grams_%28search%29)  - поисковик по Tor.
 [через onion.city](http://grams7enufi7jmdl.onion.city/),
@@ -35,16 +35,19 @@ not Evil - поисковик по Tor.
 [amazon.com](http://www.amazon.com/) <br>
 [aliexpress.com](http://aliexpress.com/) <br>
 [Yandex.Market](https://market.yandex.ru) - русский каталог магазинов и товаров.
+[ozon](https://www.ozon.ru) - популярный русский магазин, удобно искать книги
 
 #### Энциклопедии
 
 [wikipedia.org](https://en.wikipedia.org/wiki/Main_Page) - поиск по wikipedia.org
+[lurkmore](https://lurkmore.to/) - юмористическая энциклопедия, большинство информации выдумка, но можно найти полезные ссылки с фатами
+[Encyclopedia Dramatica](http://encyclopediadramatica.se/) - тоже, что lurkmore, но англоязычная
 
 #### Медиа
 
 [youtube](https://www.youtube.com/) <br>
 https://vimeo.com/ - аналог youtube <br>
-http://vevo.com/ - аналог youtube, просмотр доступен через прокси из США, Канаде, Германии, Бразилии, Австралии, Новой Зеландии, Италии, Франции, Испании, Голландии, Польше и Мексике <br>
+http://vevo.com/ - аналог youtube, просмотр доступен через прокси из США, Канады, Германии, Бразилии, Австралии, Новой Зеландии, Италии, Франции, Испании, Голландии, Польше и Мексике <br>
 [Yandex.Music](https://music.yandex.ru/) - русская и зарубежная музыка. <br>
 www.last.fm - музыкальный каталог
 
@@ -66,3 +69,15 @@ www.last.fm - музыкальный каталог
 [Bing](https://www.bing.com/) - поиск от Microsoft. <br>
 [yahoo](https://search.yahoo.com/) <br>
 [mail.ru](http://go.mail.ru/) <br>
+
+#### Справочники, наука
+
+[WolframAlpha](https://www.wolframalpha.com) - обычный поиск, но интеллектуальный (как по энциклопедии). Совмещен с программой для решения уровнений. При вводе формулы показывает все этапы её решения, графики и т.д. (по шагам). Для просмотра всех шагов нужна регистрация.
+
+#### Торрент трекеры и поиск по ним
+
+[torrentz](https://torrentz.eu/) - поисковик по множеству торрент трекеров одновременно
+[rutor.org](http://www.rutor.org/) - русскиё трекер (имеет зеркала или копии в сети Tor)
+[rutracker.org](http://rutracker.org) - популярный русский трекер
+[nnm-club](https://nnm-club.me/) - аналог rutracker.org
+
