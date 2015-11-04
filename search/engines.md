@@ -76,8 +76,8 @@ www.last.fm - музыкальный каталог
 
 #### Торрент трекеры и поиск по ним
 
-[torrentz](https://torrentz.eu/) - поисковик по множеству торрент трекеров одновременно
-[rutor.org](http://www.rutor.org/) - русскиё трекер (имеет зеркала или копии в сети Tor)
-[rutracker.org](http://rutracker.org) - популярный русский трекер
-[nnm-club](https://nnm-club.me/) - аналог rutracker.org
+[torrentz](https://torrentz.eu/) - поисковик по множеству торрент трекеров одновременно <br>
+[rutor.org](http://www.rutor.org/) - русскиё трекер (имеет зеркала или копии в сети Tor) <br>
+[rutracker.org](http://rutracker.org) - популярный русский трекер <br>
+[nnm-club](https://nnm-club.me/) - аналог rutracker.org <br>
 
