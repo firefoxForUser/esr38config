@@ -39,8 +39,8 @@ not Evil - поисковик по Tor.
 
 #### Энциклопедии
 
-[wikipedia.org](https://en.wikipedia.org/wiki/Main_Page) - поиск по wikipedia.org
-[lurkmore](https://lurkmore.to/) - юмористическая энциклопедия, большинство информации выдумка, но можно найти полезные ссылки с фатами
+[wikipedia.org](https://en.wikipedia.org/wiki/Main_Page) - поиск по wikipedia.org <br>
+[lurkmore](https://lurkmore.to/) - юмористическая энциклопедия, большинство информации выдумка, но можно найти полезные ссылки с фатами <br>
 [Encyclopedia Dramatica](http://encyclopediadramatica.se/) - тоже, что lurkmore, но англоязычная
 
 #### Медиа
