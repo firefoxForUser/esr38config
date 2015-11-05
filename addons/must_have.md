@@ -28,7 +28,7 @@
 
 [Textarea Cache](https://addons.mozilla.org/en-US/firefox/addon/textarea-cache) - просмотр введенного в формы текста (если случайно закрыли страницу)
 
-[TryAgain](https://addons.mozilla.org/en-US/firefox/addon/tryagain) - пытается открыть страницу при ошибке сервера снова.
+[TryAgain](https://addons.mozilla.org/en-US/firefox/addon/tryagain) - пытается открыть страницу при ошибке сервера снова. На страницу с описанием ошибки добавляет ссылки на проверку сайта на сервисах, которые определяют: не открывается сайт только у вас или у всего интернета.
 
 [Dictionary Switcher](https://addons.mozilla.org/en-uS/firefox/addon/dictionary-switcher) - быстрое удобное переключение словарей.
 
