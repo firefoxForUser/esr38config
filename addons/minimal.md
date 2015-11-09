@@ -2,73 +2,39 @@
 
 #### Дополнения
 
-[FindBar Tweak](https://addons.mozilla.org/ru/firefox/addon/findbar-tweak)
--
-удобный поиск по странице с отметками найденного на полосе прокрутки.
+[FindBar Tweak](https://addons.mozilla.org/ru/firefox/addon/findbar-tweak) - удобный поиск по странице с отметками найденного на полосе прокрутки.
 <br>
-[Add to Search Bar](https://addons.mozilla.org/RU/firefox/addon/add-to-search-bar)
--
-добавления любой строки в панель поиска.
+[Add to Search Bar](https://addons.mozilla.org/RU/firefox/addon/add-to-search-bar) - добавления любой строки в панель поиска.
 <br>
-[Advanced Locationbar](https://addons.mozilla.org/ru/firefox/addon/advanced-locationbar)
--
-быстрый переход по частям ссылки в адресной строке. Удобно для перехода на главную страниц.
+[Advanced Locationbar](https://addons.mozilla.org/ru/firefox/addon/advanced-locationbar) - быстрый переход по частям ссылки в адресной строке. Удобно для перехода на главную страниц.
 <br>
-[Classic Theme Restorer](https://addons.mozilla.org/ru/firefox/addon/classicthemerestorer)
--
-настройка оформления. Можно сделать уменьшить панели и кнопки.
+[Classic Theme Restorer](https://addons.mozilla.org/ru/firefox/addon/classicthemerestorer) - настройка оформления. Можно сделать уменьшить панели и кнопки.
 <br>
-[Muter](https://addons.mozilla.org/Ru/firefox/addon/muter)
--
-выключение звука от браузера. Нужно только, если в системе нету микшера звука.
+[Muter](https://addons.mozilla.org/Ru/firefox/addon/muter) - выключение звука от браузера. Нужно только, если в системе нету микшера звука.
 <br>
-[Resurrect Pages](https://addons.mozilla.org/ru/firefox/addon/resurrect-pages)
--
-можно быстро получить ссылки на страницу в веб архиве и кэше поисковиков.
+[Resurrect Pages](https://addons.mozilla.org/ru/firefox/addon/resurrect-pages) - можно быстро получить ссылки на страницу в веб архиве и кэше поисковиков.
 <br>
-[Tab Mix Plus](https://addons.mozilla.org/ru/firefox/addon/tab-mix-plus)
--
-управление поведением вкладок. Можно установить принудительный одноконный режим (всё только во вкладках).
+[Tab Mix Plus](https://addons.mozilla.org/ru/firefox/addon/tab-mix-plus) - управление поведением вкладок. Можно установить принудительный одноконный режим (всё только во вкладках).
 <br>
-[Tree Style Tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab)
--
-вкладки вертикально в виде дерева.
+[Tree Style Tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab) - вкладки вертикально в виде дерева.
 <br>
-[TryAgain](https://addons.mozilla.org/ru/firefox/addon/tryagain)
--
-если страница недоступна пытается грузить её снова. Ссылки на сервисы через которые можно проверить не доступна страница только у вас или у всех.
+[TryAgain](https://addons.mozilla.org/ru/firefox/addon/tryagain) - если страница недоступна пытается грузить её снова. Ссылки на сервисы через которые можно проверить не доступна страница только у вас или у всех.
 <br>
-[uBlock Origin](https://addons.mozilla.org/ru/firefox/addon/ublock-origin)
--
-блокировка рекламы и сбора статистики.
+[uBlock Origin](https://addons.mozilla.org/ru/firefox/addon/ublock-origin) - блокировка рекламы и сбора статистики.
 <br>
-[UnMHT](https://addons.mozilla.org/ru/firefox/addon/unmht)
--
-сохранение страницы одним файлом в формате .mht. Сохраняются и скрипты. На выбор: можно отключить диалоги во время сохранения.
+[UnMHT](https://addons.mozilla.org/ru/firefox/addon/unmht) - сохранение страницы одним файлом в формате .mht. Сохраняются и скрипты. На выбор: можно отключить диалоги во время сохранения.
 <br>
-[FoxyProxy Standard](https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard)
--
-быстрое и удобное управление прокси.
+[FoxyProxy Standard](https://addons.mozilla.org/ru/firefox/addon/foxyproxy-standard) - быстрое и удобное управление прокси.
 <br>
-[ContextMenuPlus](https://addons.mozilla.org/ru/firefox/addon/contextmenuplus)
--
-копирование текста без форматирования, копирования имени ссылки и др.
+[ContextMenuPlus](https://addons.mozilla.org/ru/firefox/addon/contextmenuplus) - копирование текста без форматирования, копирования имени ссылки и др.
 <br>
-[ExportHTMLFolder](https://addons.mozilla.org/RU/firefox/addon/exporthtmlfolder)
--
-экспорт отдельных каталогов закладок.
+[ExportHTMLFolder](https://addons.mozilla.org/RU/firefox/addon/exporthtmlfolder) - экспорт отдельных каталогов закладок.
 <br>
-[FlashGot Mass Downloader](https://addons.mozilla.org/ru/firefox/addon/flashgot)
--
-выбор менеджера стороннего менеджера загрузки файлов. Поиск ссылок на видео.
+[FlashGot Mass Downloader](https://addons.mozilla.org/ru/firefox/addon/flashgot) - выбор менеджера стороннего менеджера загрузки файлов. Поиск ссылок на видео.
 <br>
-[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey)
--
-менеджер пользовательских скриптов javascript.
+[Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - менеджер пользовательских скриптов javascript.
 <br>
-[NoSquint](https://addons.mozilla.org/ru/firefox/addon/nosquint)
--
-удобное управление масштабом страницы и отдельно масштаба текста.
+[NoSquint](https://addons.mozilla.org/ru/firefox/addon/nosquint) - удобное управление масштабом страницы и отдельно масштаба текста.
 
 
 #### Стили
