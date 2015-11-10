@@ -138,7 +138,7 @@ geo.wifi.timeToWaitBeforeSending = 630720000
 17. Отключить репорты от плагинов:
 ```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```
 18. Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
-```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мбильным Firefox, то эта настройка улучшит обман)
+```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
 
 #### Управление
 
