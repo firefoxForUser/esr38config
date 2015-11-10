@@ -107,7 +107,7 @@
 2. Включить запрос места сохранения файла при загрузке.
 3. Отключить аппаратное ускорение: ```layers.acceleration.disabled = false```
 4. Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
-5. Если Firefox даже не запускается, то создать файл ```user.js``` в кодировке ```UTF-8``` с кодом:
+5. Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
 ```
 user_pref("layers.acceleration.disabled", false);
 user_pref("layers.offmainthreadcomposition.enabled", false);
