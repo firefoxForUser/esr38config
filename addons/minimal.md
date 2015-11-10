@@ -109,10 +109,10 @@
 3. Отключить аппаратное ускорение: ```layers.acceleration.disabled = false```
 4. Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
 5. Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
-```
-user_pref("layers.acceleration.disabled", false);
-user_pref("layers.offmainthreadcomposition.enabled", false);
-```
+	```
+	user_pref("layers.acceleration.disabled", false);
+	user_pref("layers.offmainthreadcomposition.enabled", false);
+	```
 6. Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
 7. Отключить отправку хэш суммы в интернет сервисы для анализа на вредоносность ```browser.safebrowsing.downloads.enabled = false```
 8. Включить в настройках ```прокси``` DNS запросы через прокси (не в обход настроек прокси). На русском она называется "Удалённый DNS". Можно и через страницу настроек: ```network.proxy.socks_remote_dns```
