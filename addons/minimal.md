@@ -35,7 +35,8 @@
 [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey) - менеджер пользовательских скриптов javascript.
 <br>
 [NoSquint](https://addons.mozilla.org/ru/firefox/addon/nosquint) - удобное управление масштабом страницы и отдельно масштаба текста.
-
+<br>
+[User Agent Overrider](https://addons.mozilla.org/ru/firefox/addon/user-agent-overrider) - можно претворяться мобильной версией Firefox чтобы смотреть видео на некоторых сайтах без Flash Player.
 
 #### Стили
 
@@ -137,7 +138,7 @@ geo.wifi.timeToWaitBeforeSending = 630720000
 17. Отключить репорты от плагинов:
 ```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```
 18. Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
-```intl.locale.matchOS = false```
+```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мбильным Firefox, то эта настройка улучшит обман)
 
 #### Управление
 
