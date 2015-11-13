@@ -65,3 +65,5 @@
 [NewsFox](https://addons.mozilla.org/ru/firefox/addon/newsfox/),
 [Brief](https://addons.mozilla.org/ru/firefox/addon/brief/),
 [Sage](https://addons.mozilla.org/ru/firefox/addon/sage/) - оффлайн читалки rss/Atom лент.
+
+[Vimperator](https://addons.mozilla.org/en-US/firefox/addon/vimperator) - позволяет управлять Firefox как текстовым редактором Vim.
