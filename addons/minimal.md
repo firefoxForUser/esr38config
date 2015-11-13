@@ -114,7 +114,7 @@ user_pref("layers.acceleration.disabled", false);
 user_pref("layers.offmainthreadcomposition.enabled", false);
 ```
 6. Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
-7. Отключить отправку хэш суммы в интернет сервисы для анализа на вредоносность ```browser.safebrowsing.downloads.enabled = false```
+7. Отключить отправку хэш суммы в интернет сервисы для анализа на вредоносность ```browser.safebrowsing.downloads.enabled = false```, ```browser.safebrowsing.downloads.remote.enabled = false```
 8. Включить в настройках ```прокси``` DNS запросы через прокси (не в обход настроек прокси). На русском она называется "Удалённый DNS". Можно и через страницу настроек: ```network.proxy.socks_remote_dns```
 9. Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled = false```
 10. Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled = false```
@@ -136,9 +136,68 @@ geo.wifi.timeToWaitBeforeSending = 630720000
 ```
 16. Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url = ""```
 17. Отключить репорты от плагинов:
-```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```
+```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```, ```dom.ipc.plugins.reportCrashURL = false```
 18. Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
 ```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
+19. Чтобы не подгружалась реклама на страницу новой вкладки и не отправлялась статистика о её эффективности поставьте ей пустую страницу (иконка шестеренки в углу).
+20. Чтобы домашняя страница не собирала статистику поставьте в настройках домашнюю страницу: ```about:blank```
+21. Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления.
+```
+user_pref("browser.startup.homepage_override.mstone", "ignore");
+user_pref("startup.homepage_override_url", "");
+```
+22. Отключает приветственную страницу при первом запуске браузера с новым профилем.
+```
+user_pref("startup.homepage_welcome_url", "");
+user_pref("startup.homepage_welcome_url.additional", "");
+```
+23. Отключает список рекомендуемых тем в Customize -> Themes.
+```user_pref("lightweightThemes.recommendedThemes", "");```
+24. Открывать попапы во вкладках вместо отдельных окон.
+```user_pref("browser.link.open_newwindow.restriction", 0);```
+25. Запрещает попапам, скриптам отключать элементы окон браузера.
+```
+user_pref("dom.allow_scripts_to_close_windows", false);
+user_pref("dom.disable_window_move_resize", true);
+user_pref("dom.disable_window_flip", true);
+user_pref("dom.disable_window_status_change", true);
+user_pref("dom.disable_window_open_feature.close", true);
+user_pref("dom.disable_window_open_feature.location", true);
+user_pref("dom.disable_window_open_feature.menubar", true);
+user_pref("dom.disable_window_open_feature.minimizable", true);
+user_pref("dom.disable_window_open_feature.personalbar", true);
+user_pref("dom.disable_window_open_feature.resizable", true);
+user_pref("dom.disable_window_open_feature.scrollbars", true);
+user_pref("dom.disable_window_open_feature.status", true);
+user_pref("dom.disable_window_open_feature.titlebar", true);
+user_pref("dom.disable_window_open_feature.toolbar", true);
+```
+26. Отключает угадывание доменного имени при помощи подстановки www и разных TLD.
+```user_pref("browser.fixup.alternate.enabled", false);```
+27. Отключает сбор статистики производительности декодирования HTML5-видео (посмотреть их можно в Show Statistics контекстного меню плеера).
+```user_pref("media.video_stats.enabled", false);```
+28. Отключает Resource Timing API (получение информации о том, с какой скоростью обрабатываются элементы сайта).
+```user_pref("dom.enable_resource_timing", false);```
+29. Отключает передачу браузером информации о времени начала и окончания загрузки страницы.
+```user_pref("dom.enable_performance", false);```
+30. Отключает появляющееся раз в 6 месяцев окно с предложением оставить отзыв о работе Hello.
+```
+user_pref("loop.feedback.dateLastSeenSec", 1446595200); // 2015-11-04, 00:00 UTC
+user_pref("loop.feedback.periodSec", 630720000); // 20 лет
+user_pref("loop.feedback.formURL", "");
+```
+31. Отключает автообновление встроенного кодека. Хорошо бы иногда его включать, чтобы обновить. На выбор. (Можно менять в настройках плагинов)
+```
+user_pref("media.gmp-gmpopenh264.autoupdate", false);
+```
+32. Запрещает сайтам обращение к локальной машине, что позволило бы им анализировать список открытых портов. Подсмотрено у разработчиков Tor (https://trac.torproject.org/projects/tor/ticket/10686).
+Возможны проблемы при обращении на адреса типа http://127.0.0.1:631, используемые для конфигурации принтеров через CUPS и прочих устройств:
+```
+user_pref("network.proxy.no_proxies_on", "");
+```
+33. Отключает автоматическое копирование выделенного текста в буфер обмена (только для Linux-билдов).
+```user_pref("clipboard.autocopy", false);```
+34. Не устанавливайте темы, они кривые, а легковесные могут и обновление проверять.
 
 #### Управление
 
@@ -146,3 +205,14 @@ geo.wifi.timeToWaitBeforeSending = 630720000
 2. Вызвать блокированное меню по правой кнопке мыши можно с зажатым ```shift```
 3. Сохранить страницу в виде изображения можно через настройки панели разработчика.
 4. Вызвать скрутую панель меню можно нажав ```alt```
+5. Чтобы кланировать вкладку протащите её с зажатым ```ctrl```
+6. Чтобы обновить вкладку нажмите ```F5```
+7. Каретка на любом содержимом сайта включается и выключается по ```F7```
+8. Чтобы открыть адрес или результаты поискать в новой вкладке нажмите ```alt``` + ```enter```
+9. Чтобы открыть новую вкладку зажмите ```ctrl``` и кликните, работает и на закладках
+10. Если значка для управления установленным дополнением не видно ни в панели значков, ни на открытых панелях, то проверьте скрытые панели (откройте их). Панели можно открыть/закрыть кликнув правой кнопкой мыши по любой панели (не текстовому полю или значку)
+11. Закрыть вкладку можно средней кнопкой мыши
+12. Если в браузере сохранено несколько паролей, то кликнув 2 раза по текстовой строке можно выбрать любой из них
+13. Выбрать в каком каталоге сохранится закладка можно 2 раза кликнув по звездочке
+14. Кликнув правой кнопкой мыши по стрелкам вперед/назад можно сразу перейти на любуй страницу из истории переходов
+15. Нажав ```ctrl``` + ```F``` можно открыть панель поиска по странице
