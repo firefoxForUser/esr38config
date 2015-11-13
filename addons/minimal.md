@@ -45,47 +45,6 @@
 
 ```
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-/* Tree Style Tab Tabs Color busy/unload/(un)read/selected */
-/* Change of normal tabs */
-.tabbrowser-tab,
-.tabbrowser-tab *
-{
-   color: black !important;
-   font-weight: 900 !important;
-   text-shadow: 1px 1px 2px white, 0 0 1em white !important;
-}
-/* Change of pending (unload) tabs */
-.tabbrowser-tab[pending="true"],
-.tabbrowser-tab[pending="true"] *
-{
-   color: #88C3F7 !important;
-   font-weight: 900 !important;
-   text-shadow: 1px 1px 1px black, 0 0 1em white !important;
-}
-/* Change of unread tabs */
-.tabbrowser-tab[unread="true"],
-.tabbrowser-tab[unread="true"] *
-{
-   color: #FF8CB4 !important;
-   font-weight: 900 !important;
-   text-shadow: 1px 1px 2px black, 0 0 1em white !important;
-}
-/* Change of active tab */
-.tabbrowser-tab[selected="true"],
-.tabbrowser-tab[selected="true"] *
-{
-   color: white !important;
-   font-weight: 900 !important;
-   text-shadow: 0px 0px 0px white, 0 0 1em white !important;
-}
-/* Change of loading/reloading tab */
-.tabbrowser-tab[busy],
-.tabbrowser-tab[busy] *
-{
-   color: #F4F14B !important;
-   font-weight: 900 !important;
-   text-shadow: 1px 1px 2px black, 0 0 1em white !important;
-}
 /* Search and address bar text size */
 .urlbar-input-box,
 .searchbar-textbox,
