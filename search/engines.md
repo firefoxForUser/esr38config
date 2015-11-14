@@ -64,18 +64,13 @@ www.last.fm - музыкальный каталог
 #### Обычные
 
 [Google](https://www.google.com) - в том числе поиск по изображениям и поиск видео <br>
-	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.)
-		* https://support.google.com/websearch/answer/2466433?hl=en
-		* http://www.gizmag.com/google-search-functions/34382/
-		* http://www.searchcommands.com/
+	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.): [раз](https://support.google.com/websearch/answer/2466433?hl=en), [два](http://www.gizmag.com/google-search-functions/34382/), [три](http://www.searchcommands.com/)
 [Google RU](https://www.google.ru) - на русском <br>
 [yandex](https://www.yandex.by/) - второй после google по значимости поисковик для русскязычного интернета, часто русский сектор проиндексирован лучше чем в Google <br>
-	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.)
-		* https://yandex.com/support/search/how-to-search/search-operators.xml
+	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.): [раз](https://yandex.com/support/search/how-to-search/search-operators.xml)
 [Bing](https://www.bing.com/) - поиск от Microsoft. <br>
 [yahoo](https://search.yahoo.com/) <br>
-	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.)
-		* http://searchcommands.com/#yahoo
+	* команды для поиска (поиск типов файлов, поиск по сайту, поиск в ссылах, поиск похожих сайтов и т.д.): [раз](http://searchcommands.com/#yahoo)
 [mail.ru](http://go.mail.ru/) <br>
 
 #### Справочники, наука
