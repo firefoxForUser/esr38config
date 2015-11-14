@@ -158,7 +158,7 @@ user_pref("network.proxy.no_proxies_on", "");
 ```user_pref("clipboard.autocopy", false);```
 34. Не устанавливайте темы, они кривые, а легковесные могут и обновление проверять.
 35. Установить ```browser.search.showOneOffButtons = false``` иначе названий поисковиков в панели поиска не будет и вам придется запоминать иконки.
-36. Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавлиайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ <br>
+36. Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ <br>
 ```user_pref("extensions.webservice.discoverURL", "");```
 
 #### Управление
