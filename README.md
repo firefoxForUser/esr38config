@@ -120,7 +120,7 @@ CSS стили можно применять к элементам интерф�
 * [Для разработчика](addons/dev.md)
 
 #### 7. [Словари проверки орфографии и дополнения для них](https://addons.mozilla.org/en-us/firefox/language-tools/) <br>
-[Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) <br>
+[Dictionary Switcher](https://addons.mozilla.org/en-us/firefox/addon/dictionary-switcher) - дополнение для быстрого переключения словарей <br>
 [English-Russian dictionary](https://addons.mozilla.org/en-us/firefox/addon/english-russian-dict/) (совмещённый русский и английский)
 <br>
 #### 8. [Поисковые движки](https://addons.mozilla.org/en-US/firefox/search/?atype=4) и дополнения для них <br>
