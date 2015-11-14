@@ -65,11 +65,11 @@
 0. Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
 1. Отключить в настройках сбор телеметрии, защиту от вредоносных доменов и авто обновления.
 2. Включить запрос места сохранения файла при загрузке.
-3. Отключить аппаратное ускорение: ```layers.acceleration.disabled = false```
+3. Отключить аппаратное ускорение: ```layers.acceleration.disabled = true```
 4. Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
 5. Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
 ```
-user_pref("layers.acceleration.disabled", false);
+user_pref("layers.acceleration.disabled", true);
 user_pref("layers.offmainthreadcomposition.enabled", false);
 ```
 6. Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
