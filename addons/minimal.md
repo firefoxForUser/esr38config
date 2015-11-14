@@ -36,7 +36,7 @@
 <br>
 [NoSquint](https://addons.mozilla.org/ru/firefox/addon/nosquint) - удобное управление масштабом страницы и отдельно масштаба текста.
 <br>
-[User Agent Overrider](https://addons.mozilla.org/ru/firefox/addon/user-agent-overrider) - можно претворяться мобильной версией Firefox чтобы смотреть видео на некоторых сайтах без Flash Player.
+[User Agent Overrider](https://addons.mozilla.org/ru/firefox/addon/user-agent-overrider) - можно притворяться мобильной версией Firefox чтобы смотреть видео на некоторых сайтах без Flash Player.
 
 #### Стили
 
