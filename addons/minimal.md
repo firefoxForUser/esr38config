@@ -40,19 +40,13 @@
 
 #### Стили
 
-* Создать файл ```profile\chrome\userChrome.css``` в кодировке ```UTF-8```
+Вместо установки стилей через дополнение Stylish можно: <br>
+* Создать файл ```profile\chrome\userChrome.css``` в кодировке ```UTF-8``` (для интерфейса браузера)
+* Создать файл ```profile\chrome\userContent.css``` в кодировке ```UTF-8``` (для сайтов браузера)
 * Скопировать туда код и перезапустить браузер:
 
 ```
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-/* Search and address bar text size */
-.urlbar-input-box,
-.searchbar-textbox,
-#MMSearchTBTextbox
-{
-  font-size: *5px !important;
-}
-
 /* Hide useless certificate information */
 #identity-icon-label,
 #identity-icon-country-label {
