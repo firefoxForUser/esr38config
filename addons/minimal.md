@@ -38,22 +38,6 @@
 <br>
 [User Agent Overrider](https://addons.mozilla.org/ru/firefox/addon/user-agent-overrider) - можно притворяться мобильной версией Firefox чтобы смотреть видео на некоторых сайтах без Flash Player.
 
-#### Стили
-
-Вместо установки стилей через дополнение Stylish можно: <br>
-* Создать файл ```profile\chrome\userChrome.css``` в кодировке ```UTF-8``` (для интерфейса браузера)
-* Создать файл ```profile\chrome\userContent.css``` в кодировке ```UTF-8``` (для сайтов браузера)
-* Скопировать туда код и перезапустить браузер:
-
-```
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
-/* Hide useless certificate information */
-#identity-icon-label,
-#identity-icon-country-label {
-  display:none !important;
-}
-```
-
 #### Настройки
 
 * Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
