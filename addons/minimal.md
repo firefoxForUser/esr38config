@@ -42,6 +42,7 @@
 
 * Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
 * Отключить в настройках сбор телеметрии, защиту от вредоносных доменов и авто обновления.
+* Отключить показ предложений при вводе в строку поиска (отправляет ваши данные во время ввода)
 * Включить запрос места сохранения файла при загрузке.
 * Отключить аппаратное ускорение: ```layers.acceleration.disabled = true```
 * Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
@@ -88,7 +89,7 @@ user_pref("startup.homepage_override_url", "");
 user_pref("startup.homepage_welcome_url", "");
 user_pref("startup.homepage_welcome_url.additional", "");
 ```
-* Отключает список рекомендуемых тем в Customize -> Themes.
+* Отключает список рекомендуемых тем в Customize -> Themes. (подгружает лишние данные)
 ```user_pref("lightweightThemes.recommendedThemes", "");```
 * Открывать попапы во вкладках вместо отдельных окон.
 ```user_pref("browser.link.open_newwindow.restriction", 0);```
@@ -136,7 +137,7 @@ user_pref("network.proxy.no_proxies_on", "");
 ```user_pref("clipboard.autocopy", false);```
 * Не устанавливайте темы, они кривые, а легковесные могут и обновление проверять.
 * Установить ```browser.search.showOneOffButtons = false``` иначе названий поисковиков в панели поиска не будет и вам придется запоминать иконки.
-* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ <br>
+* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ (подгружает лишние данные) <br>
 ```user_pref("extensions.webservice.discoverURL", "");```
 
 #### Управление
