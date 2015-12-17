@@ -158,7 +158,7 @@
 	
 #### Управление
 
-**Обратите внимание на эту подборку!** Некоторые сочетания клавиш заменяют дополнения! Все сочетания клавиш можно посмотреть на официальной странице справки для [Hot Keys](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly?redirectlocale=en-US&as=u&redirectslug=Keyboard+shortcuts&utm_source=inproduct)<br>
+**Обратите внимание на эту подборку!** Некоторые сочетания клавиш заменяют дополнения! Все сочетания клавиш можно посмотреть на [официальной странице справки для Hot Keys](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly?redirectlocale=en-US&as=u&redirectslug=Keyboard+shortcuts&utm_source=inproduct)<br>
 **Note!** Некоторые дополнения могут блокировать или менять стандартные сочетания клавиш.
 
 * Выделять куски ссылок или элементов которые перетаскиваются можно с зажатым ```alt``` (не работает если копирование блокировано скриптами или на блок с текстом наложен сверху прозрачный блок)
