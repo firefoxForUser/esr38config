@@ -110,7 +110,7 @@
 	```user_pref("lightweightThemes.recommendedThemes", "");```
 	* Открывать попапы во вкладках вместо отдельных окон.
 	```user_pref("browser.link.open_newwindow.restriction", 0);```
-	* Запрещает попапам, скриптам отключать элементы окон браузера.
+	* Запрещает попапам, скриптам отключать элементы окон браузера (этот пункт теоретически может сломать функции некоторых сайтов).
 	```
 	user_pref("dom.allow_scripts_to_close_windows", false);
 	user_pref("dom.disable_window_move_resize", true);
