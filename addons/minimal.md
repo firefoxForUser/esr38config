@@ -59,97 +59,98 @@
 	user_pref("media.gmp-gmpopenh264.autoupdate", false);
 	```
 
-* Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
-* В закладки Firefox компания в целях рекламы может добавить подписки RSS и Atom на новости в качестве рекламы. Проверьте их и удалите.
-* Отключить аппаратное ускорение: ```layers.acceleration.disabled = true```
-* Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
-* Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
-```
-user_pref("layers.acceleration.disabled", true);
-user_pref("layers.offmainthreadcomposition.enabled", false);
-```
-* Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
-* Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled = false```
-* Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled = false```
-* Отключение медленный просмотра pdf в браузере:
-```pdfjs.disabled = true```,
-```pdfjs.enableWebGL = false```
-* Отвечает за переход к позиции на странице при клике по scroll бару (полосе прокрутки) левой кнопкой мыши. Ставим моментальный переход: ```ui.scrollToClick = 1```
-* Отключить предупреждение сайтом о закрытии вкладки с важной информацией. Сообщение "Вы действительно хотите уйти с этого сайта?": ```dom.disable_beforeunload = true```
-* Этот параметр отвечает за задержку перед открытием подменю. Убираем задержку:
-```ui.submenuDelay = 0```
-* Отключить API геолокации. Отключает геолокацию через сервисы Гугла с присвоением клиентскому компьютеру уникального идентификатора и передачей в Гугл информации о близлежащих точках доступа Wi-Fi:
-```
-geo.enabled = false
-geo.wifi.logging.enabled = false
-geo.wifi.uri = ""
-geo.wifi.scan = false
-geo.cell.scan = false
-geo.wifi.timeToWaitBeforeSending = 630720000
-```
-* Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url = ""```
-* Отключить репорты от плагинов:
-```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```, ```dom.ipc.plugins.reportCrashURL = false```
-* Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
-```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
-* Чтобы не подгружалась реклама на страницу новой вкладки и не отправлялась статистика о её эффективности поставьте ей пустую страницу (иконка шестеренки в углу).
-* Чтобы домашняя страница не собирала статистику поставьте в настройках домашнюю страницу: ```about:blank```
-* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления.
-```
-user_pref("browser.startup.homepage_override.mstone", "ignore");
-user_pref("startup.homepage_override_url", "");
-```
-* Отключает приветственную страницу при первом запуске браузера с новым профилем.
-```
-user_pref("startup.homepage_welcome_url", "");
-user_pref("startup.homepage_welcome_url.additional", "");
-```
-* Отключает список рекомендуемых тем в Customize -> Themes. (подгружает лишние данные)
-```user_pref("lightweightThemes.recommendedThemes", "");```
-* Открывать попапы во вкладках вместо отдельных окон.
-```user_pref("browser.link.open_newwindow.restriction", 0);```
-* Запрещает попапам, скриптам отключать элементы окон браузера.
-```
-user_pref("dom.allow_scripts_to_close_windows", false);
-user_pref("dom.disable_window_move_resize", true);
-user_pref("dom.disable_window_flip", true);
-user_pref("dom.disable_window_status_change", true);
-user_pref("dom.disable_window_open_feature.close", true);
-user_pref("dom.disable_window_open_feature.location", true);
-user_pref("dom.disable_window_open_feature.menubar", true);
-user_pref("dom.disable_window_open_feature.minimizable", true);
-user_pref("dom.disable_window_open_feature.personalbar", true);
-user_pref("dom.disable_window_open_feature.resizable", true);
-user_pref("dom.disable_window_open_feature.scrollbars", true);
-user_pref("dom.disable_window_open_feature.status", true);
-user_pref("dom.disable_window_open_feature.titlebar", true);
-user_pref("dom.disable_window_open_feature.toolbar", true);
-```
-* Отключает угадывание доменного имени при помощи подстановки www и разных TLD.
-```user_pref("browser.fixup.alternate.enabled", false);```
-* Отключает сбор статистики производительности декодирования HTML5-видео (посмотреть их можно в Show Statistics контекстного меню плеера).
-```user_pref("media.video_stats.enabled", false);```
-* Отключает Resource Timing API (получение информации о том, с какой скоростью обрабатываются элементы сайта).
-```user_pref("dom.enable_resource_timing", false);```
-* Отключает передачу браузером информации о времени начала и окончания загрузки страницы.
-```user_pref("dom.enable_performance", false);```
-* Отключает появляющееся раз в 6 месяцев окно с предложением оставить отзыв о работе Hello.
-```
-user_pref("loop.feedback.dateLastSeenSec", 1446595200); // 2015-11-04, 00:00 UTC
-user_pref("loop.feedback.periodSec", 630720000); // 20 лет
-user_pref("loop.feedback.formURL", "");
-```
-* Запрещает сайтам обращение к локальной машине, что позволило бы им анализировать список открытых портов.
-Возможны проблемы при обращении на адреса типа http://127.0.0.1:631, используемые для конфигурации принтеров через CUPS и прочих устройств:
-```
-user_pref("network.proxy.no_proxies_on", "");
-```
-* Отключает автоматическое копирование выделенного текста в буфер обмена (только для Linux-билдов).
-```user_pref("clipboard.autocopy", false);```
-* Не устанавливайте темы, они кривые, а легковесные могут и обновление проверять.
-* Установить через дополнение ```Classic Theme Restorer``` строку поиска в виде списка (старый виде поисковой строки). Иначе названий поисковиков в панели поиска не будет и вам придется запоминать иконки.
-* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ (подгружает лишние данные) <br>
-```user_pref("extensions.webservice.discoverURL", "");```
+* На странице дополнительный настроек ```about:config```:
+	* Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
+	* В закладки Firefox компания в целях рекламы может добавить подписки RSS и Atom на новости в качестве рекламы. Проверьте их и удалите.
+	* Отключить аппаратное ускорение: ```layers.acceleration.disabled = true```
+	* Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
+	* Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
+	```
+	user_pref("layers.acceleration.disabled", true);
+	user_pref("layers.offmainthreadcomposition.enabled", false);
+	```
+	* Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
+	* Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled = false```
+	* Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled = false```
+	* Отключение медленный просмотра pdf в браузере:
+	```pdfjs.disabled = true```,
+	```pdfjs.enableWebGL = false```
+	* Отвечает за переход к позиции на странице при клике по scroll бару (полосе прокрутки) левой кнопкой мыши. Ставим моментальный переход: ```ui.scrollToClick = 1```
+	* Отключить предупреждение сайтом о закрытии вкладки с важной информацией. Сообщение "Вы действительно хотите уйти с этого сайта?": ```dom.disable_beforeunload = true```
+	* Этот параметр отвечает за задержку перед открытием подменю. Убираем задержку:
+	```ui.submenuDelay = 0```
+	* Отключить API геолокации. Отключает геолокацию через сервисы Гугла с присвоением клиентскому компьютеру уникального идентификатора и передачей в Гугл информации о близлежащих точках доступа Wi-Fi:
+	```
+	geo.enabled = false
+	geo.wifi.logging.enabled = false
+	geo.wifi.uri = ""
+	geo.wifi.scan = false
+	geo.cell.scan = false
+	geo.wifi.timeToWaitBeforeSending = 630720000
+	```
+	* Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url = ""```
+	* Отключить репорты от плагинов:
+	```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```, ```dom.ipc.plugins.reportCrashURL = false```
+	* Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
+	```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
+	* Чтобы не подгружалась реклама на страницу новой вкладки и не отправлялась статистика о её эффективности поставьте ей пустую страницу (иконка шестеренки в углу).
+	* Чтобы домашняя страница не собирала статистику поставьте в настройках домашнюю страницу: ```about:blank```
+	* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления.
+	```
+	user_pref("browser.startup.homepage_override.mstone", "ignore");
+	user_pref("startup.homepage_override_url", "");
+	```
+	* Отключает приветственную страницу при первом запуске браузера с новым профилем.
+	```
+	user_pref("startup.homepage_welcome_url", "");
+	user_pref("startup.homepage_welcome_url.additional", "");
+	```
+	* Отключает список рекомендуемых тем в Customize -> Themes. (подгружает лишние данные)
+	```user_pref("lightweightThemes.recommendedThemes", "");```
+	* Открывать попапы во вкладках вместо отдельных окон.
+	```user_pref("browser.link.open_newwindow.restriction", 0);```
+	* Запрещает попапам, скриптам отключать элементы окон браузера.
+	```
+	user_pref("dom.allow_scripts_to_close_windows", false);
+	user_pref("dom.disable_window_move_resize", true);
+	user_pref("dom.disable_window_flip", true);
+	user_pref("dom.disable_window_status_change", true);
+	user_pref("dom.disable_window_open_feature.close", true);
+	user_pref("dom.disable_window_open_feature.location", true);
+	user_pref("dom.disable_window_open_feature.menubar", true);
+	user_pref("dom.disable_window_open_feature.minimizable", true);
+	user_pref("dom.disable_window_open_feature.personalbar", true);
+	user_pref("dom.disable_window_open_feature.resizable", true);
+	user_pref("dom.disable_window_open_feature.scrollbars", true);
+	user_pref("dom.disable_window_open_feature.status", true);
+	user_pref("dom.disable_window_open_feature.titlebar", true);
+	user_pref("dom.disable_window_open_feature.toolbar", true);
+	```
+	* Отключает угадывание доменного имени при помощи подстановки www и разных TLD.
+	```user_pref("browser.fixup.alternate.enabled", false);```
+	* Отключает сбор статистики производительности декодирования HTML5-видео (посмотреть их можно в Show Statistics контекстного меню плеера).
+	```user_pref("media.video_stats.enabled", false);```
+	* Отключает Resource Timing API (получение информации о том, с какой скоростью обрабатываются элементы сайта).
+	```user_pref("dom.enable_resource_timing", false);```
+	* Отключает передачу браузером информации о времени начала и окончания загрузки страницы.
+	```user_pref("dom.enable_performance", false);```
+	* Отключает появляющееся раз в 6 месяцев окно с предложением оставить отзыв о работе Hello.
+	```
+	user_pref("loop.feedback.dateLastSeenSec", 1446595200); // 2015-11-04, 00:00 UTC
+	user_pref("loop.feedback.periodSec", 630720000); // 20 лет
+	user_pref("loop.feedback.formURL", "");
+	```
+	* Запрещает сайтам обращение к локальной машине, что позволило бы им анализировать список открытых портов.
+	Возможны проблемы при обращении на адреса типа http://127.0.0.1:631, используемые для конфигурации принтеров через CUPS и прочих устройств:
+	```
+	user_pref("network.proxy.no_proxies_on", "");
+	```
+	* Отключает автоматическое копирование выделенного текста в буфер обмена (только для Linux-билдов).
+	```user_pref("clipboard.autocopy", false);```
+	* Не устанавливайте темы, они кривые, а легковесные могут и обновление проверять.
+	* Установить через дополнение ```Classic Theme Restorer``` строку поиска в виде списка (старый виде поисковой строки). Иначе названий поисковиков в панели поиска не будет и вам придется запоминать иконки.
+	* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ (подгружает лишние данные) <br>
+	```user_pref("extensions.webservice.discoverURL", "");```
 
 #### Управление
 
