@@ -66,3 +66,5 @@
 [Edit Bookmark Plus](https://addons.mozilla.org/ru/firefox/addon/edit-bookmark-plus/) - позволяет изменять размер и запоминать состояние меню добавления в закладки (открывается по двойному клику левой кнопки мыши по кнопке-звездочке).
 
 [ExportHTMLFolder](https://addons.mozilla.org/ru/firefox/addon/exporthtmlfolder/) - позволяет экспортировать отдельные каталоги закладок.
+
+[Drag-n-Drop Multiple Files](https://addons.mozilla.org/ru/firefox/addon/drag-n-drop-multiple-files) - если перетащить несколько файлов (например .htm) на окно Firefox, то откроется только один из них. Это дополнение исправляет баг позволяя открывать перетаскиванием множество файлов.
