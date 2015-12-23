@@ -151,7 +151,7 @@
 	```
 	* Отключает автоматическое копирование выделенного текста в буфер обмена (только для Linux-билдов).
 	```user_pref("clipboard.autocopy", false);```
-	* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ (подгружает лишние данные) <br>
+	* Отключает показ AMO при входе в Add-ons Manager на вкладку Get Add-ons, лучше устанавливайте дополнения через сайт https://addons.mozilla.org/en-US/firefox/ (так как функция подгружает лишний трафик) <br>
 	```user_pref("extensions.webservice.discoverURL", "");```
 
 * Другое:
