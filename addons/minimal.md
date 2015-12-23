@@ -51,13 +51,14 @@
 
 
 * В стандартный настройках:
-	* Отключить в настройках сбор телеметрии.
+	* Отключить в настройках сбор телеметрии: <br>
 	```Опции > Дополнительно > Выбор данных```
-	* Отключить авто обновления.
+	* Отключить авто обновления: <br>
 	```Опции > Дополнительно > Обновление```
 	* Отключить защиту от вредоносных доменов и мошеннических доменов: <br>
 	```Опции > Безопасность > Снять 2-е галочки (Защита от мошеннических и вредоносных доменов)```. <br>
-	Сюда входит и функция отправки хэша (уникального идентификатора) каждого загружаемого файла в сервисы гугл для анализа на вредоносность. Дополнительно можно установить значения на странице ```about:config```: <br> ```browser.safebrowsing.downloads.enabled = false``` <br>
+	Сюда входит и функция отправки хэша (уникального идентификатора) каждого загружаемого файла в сервисы гугл для анализа на вредоносность. Дополнительно можно установить значения на странице ```about:config```: <br>
+	```browser.safebrowsing.downloads.enabled = false``` <br>
 	```browser.safebrowsing.downloads.remote.enabled = false```
 	* Отключить показ предложений при вводе в строку поиска (отправляет ваши данные во время ввода)
 	* Включить запрос места сохранения файла при загрузке.
@@ -78,8 +79,8 @@
 	* Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
 	* Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled = false```
 	* Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled = false```
-	* Отключение медленный просмотра pdf в браузере:
-	```pdfjs.disabled = true```,
+	* Отключение медленный просмотра pdf в браузере: <br>
+	```pdfjs.disabled = true``` <br>
 	```pdfjs.enableWebGL = false```
 	* Отвечает за переход к позиции на странице при клике по scroll бару (полосе прокрутки) левой кнопкой мыши. Ставим моментальный переход: ```ui.scrollToClick = 1```
 	* Отключить предупреждение сайтом о закрытии вкладки с важной информацией. Сообщение "Вы действительно хотите уйти с этого сайта?": ```dom.disable_beforeunload = true```
@@ -95,21 +96,20 @@
 	geo.wifi.timeToWaitBeforeSending = 630720000
 	```
 	* Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url = ""```
-	* Отключить репорты от плагинов:
-	```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false```, ```dom.ipc.plugins.reportCrashURL = false```
-	* Использовать локаль из ```general.useragent.locale```, а не установленную в ОС:
+	* Отключить репорты от плагинов: <br>
+	```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false``` <br>
+	```dom.ipc.plugins.reportCrashURL = false```
+	* Использовать локаль из ```general.useragent.locale```, а не установленную в ОС: <br>
 	```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
-	* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления.
+	* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления:
 	```
-	user_pref("browser.startup.homepage_override.mstone", "ignore");
-	user_pref("startup.homepage_override_url", "");
+	browser.startup.homepage_override.mstone = "ignore"
+	startup.homepage_override_url = ""
 	```
-	* Отключает приветственную страницу при первом запуске браузера с новым профилем.
-	```
-	user_pref("startup.homepage_welcome_url", "");
-	user_pref("startup.homepage_welcome_url.additional", "");
-	```
-	* Отключает список рекомендуемых тем в Customize -> Themes. (подгружает лишние данные)
+	* Отключает приветственную страницу при первом запуске браузера с новым профилем:
+	```startup.homepage_welcome_url = ""``` <br>
+	```startup.homepage_welcome_url.additional = ""```
+	* Отключает список рекомендуемых тем в ```Customize > Themes```. (функция подгружает лишний трафик)
 	```user_pref("lightweightThemes.recommendedThemes", "");```
 	* Открывать попапы во вкладках вместо отдельных окон.
 	```user_pref("browser.link.open_newwindow.restriction", 0);```
