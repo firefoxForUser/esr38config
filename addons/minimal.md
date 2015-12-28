@@ -1,5 +1,5 @@
 Минимальны джентльменский набор дополнений, стилей и настроек для **release** версии <br>
-Подборку для мобильной версии Firefox под Android смотрите тут: [Минимальная настройка Firefox под Android](addons/minimalAndroid.md)
+Подборку для мобильной версии Firefox под Android смотрите тут: [Минимальная настройка Firefox под Android](minimalAndroid.md)
 
 #### Дополнения
 
