@@ -8,6 +8,7 @@
 [android-api-11](https://ftp.mozilla.org/pub/mozilla.org/mobile/releases/latest/android-api-11/) - для Android 3.0 и выше. <br>
 [android-x86](https://ftp.mozilla.org/pub/mozilla.org/mobile/releases/latest/android-x86/) - для Android устройств с процессором x86 <br>
 Но к сожалению Mozilla во время выкладывает новые версии только в Google Play Market, с FTP как повезет. Поэтому свежие версии можно взять из каталога на FTP куда выкладывают сборки в процессе разработки [tinderbox-builds](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/): <br>
+(выбирайте версию с большим номером) <br>
 [android-api-9](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-api-9/) - для Android 2.3 <br>
 [android-api-11](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-api-11/) - для Android 3.0 и выше. <br>
 [android-x86](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-x86/) - для Android устройств с процессором x86
