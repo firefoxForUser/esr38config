@@ -1,5 +1,7 @@
 Подборка минимально необходимых настроек и дополнений для Firefox под Android.
 
+#### Установка
+
 Последнюю версию Firefox можно было бы найти тут, на официальном FTP: <br>
 [android-api-9](https://ftp.mozilla.org/pub/mozilla.org/mobile/releases/latest/android-api-9/) - для Android 2.3 <br>
 [android-api-11](https://ftp.mozilla.org/pub/mozilla.org/mobile/releases/latest/android-api-11/) - для Android 3.0 и выше. <br>
@@ -7,8 +9,7 @@
 Но к сожалению Mozilla во время выкладывает новые версии только в Google Play Market, с FTP как повезет. Поэтому свежие версии можно взять из каталога на FTP куда выкладывают сборки в процессе разработки [tinderbox-builds](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/): <br>
 [android-api-9](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-api-9/) - для Android 2.3 <br>
 [android-api-11](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-api-11/) - для Android 3.0 и выше. <br>
-[android-x86](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-x86/) - для Android устройств с процессором x86 <br>
-
+[android-x86](https://ftp.mozilla.org/pub/mobile/tinderbox-builds/mozilla-release-android-x86/) - для Android устройств с процессором x86
 
 #### Дополнения
 
@@ -33,7 +34,7 @@
 17. [RememberPass](https://addons.mozilla.org/ru/android/addon/rememberpass/) - авто-сохранение паролей даже на сайтах на которых оно отключено самими сайтами. <br>
 18. [Mobile Password Manager](https://addons.mozilla.org/ru/android/addon/mobile-password-manager/) - просмотр и редактирование списка сохранённых паролей. <br>
 19. [Console](https://addons.mozilla.org/ru/android/addon/console/) - консоль ошибок. <br>
-20. [Desktop Mode Add-on]() - при включении режима отображения версии сайта для настольной версии Firefox сайт отображается один-в-один как на настольной версии (стандартный режим использует другой способ и параметры отрисовки). Полезно для сайтов, которые криво отображаются на мобильой версии. <br>
+20. [Desktop Mode Add-on](https://addons.mozilla.org/ru/android/addon/desktop-mode-add-on/) - при включении режима отображения версии сайта для настольной версии Firefox сайт отображается один-в-один как на настольной версии (стандартный режим использует другой способ и параметры отрисовки). Полезно для сайтов, которые криво отображаются на мобильой версии. <br>
 21. [uBlock Origin](https://addons.mozilla.org/ru/android/addon/ublock-origin) - аналог AdBlock Plus, но более быстрый и не отправляющий статистику разработчикам. Удобное управление подписками.
 
 #### Настройки
