@@ -3,6 +3,8 @@
 
 #### Дополнения
 
+**Note!** Значки некоторых дополнений могут прятаться на разных панелях или в меню настройки вида панелей.
+
 [FindBar Tweak](https://addons.mozilla.org/ru/firefox/addon/findbar-tweak) - удобный поиск по странице с отметками найденного на полосе прокрутки.
 <br>
 [Add to Search Bar](https://addons.mozilla.org/RU/firefox/addon/add-to-search-bar) - добавления любой строки в панель поиска.
@@ -17,7 +19,7 @@
 <br>
 [Tab Mix Plus](https://addons.mozilla.org/ru/firefox/addon/tab-mix-plus) - управление поведением вкладок. Можно установить принудительный одноконный режим (всё только во вкладках). Функция перезагрузки вкладки по таймеру, переименование вкладок, горячие клавиши, множество функций.
 <br>
-[Tree Style Tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab) - вкладки вертикально в виде дерева.
+[Tree Style Tab](https://addons.mozilla.org/ru/firefox/addon/tree-style-tab) или [Tab Tree](https://addons.mozilla.org/en-US/firefox/addon/tab-tree) - вкладки вертикально в виде дерева.
 <br>
 [TryAgain](https://addons.mozilla.org/ru/firefox/addon/tryagain) - если страница недоступна пытается грузить её снова. Ссылки на сервисы через которые можно проверить не доступна страница только у вас или у всех.
 <br>
@@ -44,6 +46,12 @@
 [ImgLikeOpera](https://addons.mozilla.org/ru/firefox/addon/imglikeopera) - можно отключить изображения, подгружать только выбранные, видеть только те, что уже загрузились ранее. Нужен в дороге при дорогом и медленном трафике сотовых операторов.
 <br>
 [Edit Bookmark Plus](https://addons.mozilla.org/en-US/firefox/addon/edit-bookmark-plus) - при добавлении закладок меню закладок запоминает состояние. Это избавляет от множества лишних действий.
+<br>
+[Link Properties Plus](https://addons.mozilla.org/ru/firefox/addon/link-properties-plus) - предоставляет расширенные свойства для ссылок: размер файла по ссылке, дату последнего изменения и т.п.
+<br>
+[Drag-n-Drop Multiple Files](https://addons.mozilla.org/ru/firefox/addon/drag-n-drop-multiple-files) - при перетаскивании нескольких файлов из файлового менеджера в Firefox они открываются. Без этого дополнения откроется только первый файл.
+<br>
+[Select like a Boss](https://addons.mozilla.org/en-US/firefox/addon/select-like-a-boss) - позволяет выделять ссылки без зажатия клавиши ```alt```.
 
 #### Настройки
 
@@ -59,54 +67,50 @@
 	* Отключить защиту от вредоносных доменов и мошеннических доменов: <br>
 	```Опции > Безопасность > Снять 2-е галочки (Защита от мошеннических и вредоносных доменов)```. <br>
 	Сюда входит и функция отправки хэша (уникального идентификатора) каждого загружаемого файла в сервисы гугл для анализа на вредоносность. Дополнительно можно установить значения на странице ```about:config```: <br>
-	```browser.safebrowsing.downloads.enabled = false``` <br>
-	```browser.safebrowsing.downloads.remote.enabled = false```
+	```browser.safebrowsing.downloads.enabled``` = ```false``` <br>
+	```browser.safebrowsing.downloads.remote.enabled``` = ```false```
 	* Отключить показ предложений при вводе в строку поиска (отправляет ваши данные во время ввода)
 	* Включить запрос места сохранения файла при загрузке.
-	* Включить в настройках ```прокси``` DNS запросы через прокси (не в обход настроек прокси). На русском она называется "Удалённый DNS". Можно и через страницу настроек ```about:config```: ```network.proxy.socks_remote_dns = true```
+	* Включить в настройках ```прокси``` DNS запросы через прокси (не в обход настроек прокси). На русском она называется "Удалённый DNS". Можно и через страницу настроек ```about:config```: ```network.proxy.socks_remote_dns``` = ```true```
 	* Отключает автообновление встроенного кодека в настройках плагинов. Хорошо бы иногда его включать, чтобы обновить. На выбор, для экономии трафик.
 	* Чтобы не подгружалась реклама на страницу новой вкладки и не отправлялась статистика о её эффективности поставьте ей пустую страницу (иконка шестеренки в углу).
 	* Чтобы домашняя страница не собирала статистику поставьте в настройках домашнюю страницу: ```about:blank```
 
 * На странице дополнительных настроек ```about:config```:
 	* Настройки вида ```мой.параметр.подпараметр = значение``` можно найти на странице ```about:config```
-	* Отключить аппаратное ускорение: ```layers.acceleration.disabled = true```
-	* Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled = false```
+	* Отключить аппаратное ускорение: ```layers.acceleration.disabled``` = ```true```
+	* Если есть лаги или падения браузера отключить асинхронную анимацию: ```layers.offmainthreadcomposition.enabled``` = ```false```
 	* Если Firefox даже не запускается, то создать файл ```profile/user.js``` в кодировке ```UTF-8``` с кодом:
 	```
 	user_pref("layers.acceleration.disabled", true);
 	user_pref("layers.offmainthreadcomposition.enabled", false);
 	```
-	* Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word = false```
-	* Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled = false```
-	* Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled = false```
+	* Отключить выделение пробела за словом по двойному клику на слове: ```layout.word_select.eat_space_to_next_word``` = ```false```
+	* Отключить передачу сайтам информации о уровне заряда батареи ```dom.battery.enabled``` = ```false```
+	* Отключить возможность сбора сайтами информации с сенсоров устройства ```device.sensors.enabled``` = ```false```
 	* Отключение медленный просмотра pdf в браузере: <br>
-	```pdfjs.disabled = true``` <br>
-	```pdfjs.enableWebGL = false```
-	* Отвечает за переход к позиции на странице при клике по scroll бару (полосе прокрутки) левой кнопкой мыши. Ставим моментальный переход: ```ui.scrollToClick = 1```
-	* Отключить предупреждение сайтом о закрытии вкладки с важной информацией. Сообщение "Вы действительно хотите уйти с этого сайта?": ```dom.disable_beforeunload = true```
+	```pdfjs.disabled``` = ```true``` <br>
+	```pdfjs.enableWebGL``` = ```false```
+	* Отвечает за переход к позиции на странице при клике по scroll бару (полосе прокрутки) левой кнопкой мыши. Ставим моментальный переход: ```ui.scrollToClick``` = ```1```
+	* Отключить предупреждение сайтом о закрытии вкладки с важной информацией. Сообщение "Вы действительно хотите уйти с этого сайта?": ```dom.disable_beforeunload``` = ```true```
 	* Этот параметр отвечает за задержку перед открытием подменю. Убираем задержку:
-	```ui.submenuDelay = 0```
-	* Отключить API геолокации. Отключает геолокацию через сервисы Гугла с присвоением клиентскому компьютеру уникального идентификатора и передачей в Гугл информации о близлежащих точках доступа Wi-Fi:
-	```
-	geo.enabled = false
-	geo.wifi.logging.enabled = false
-	geo.wifi.uri = ""
-	geo.wifi.scan = false
-	geo.cell.scan = false
-	geo.wifi.timeToWaitBeforeSending = 630720000
-	```
-	* Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url = ""```
+	```ui.submenuDelay``` = ```0```
+	* Отключить API геолокации. Отключает геолокацию через сервисы Гугла с присвоением клиентскому компьютеру уникального идентификатора и передачей в Гугл информации о близлежащих точках доступа Wi-Fi: <br>
+	```geo.enabled``` = ```false <br>
+	```geo.wifi.logging.enabled``` = ```false``` <br>
+	```geo.wifi.uri``` = ```""``` <br>
+	```geo.wifi.scan``` = ```false``` <br>
+	```geo.cell.scan``` = ```false``` <br>
+	```geo.wifi.timeToWaitBeforeSending``` = ```630720000``` <br>
+	* Отключить передачу оценок опроса Advocacy/heartbeat: ```browser.selfsupport.url``` = ```""```
 	* Отключить репорты от плагинов: <br>
-	```dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false``` <br>
-	```dom.ipc.plugins.reportCrashURL = false```
+	```dom.ipc.plugins.flash.subprocess.crashreporter.enabled``` = ```false``` <br>
+	```dom.ipc.plugins.reportCrashURL``` = ```false```
 	* Использовать локаль из ```general.useragent.locale```, а не установленную в ОС: <br>
 	```intl.locale.matchOS = false``` (если нужно обмануть сайт представившись мобильным Firefox, то эта настройка улучшит обман)
-	* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления:
-	```
-	browser.startup.homepage_override.mstone = "ignore"
-	startup.homepage_override_url = ""
-	```
+	* Отключает автоматическое открытие вкладки с описанием изменений в новой версии после обновления: <br>
+	```browser.startup.homepage_override.mstone``` = ```"ignore"``` <br>
+	```startup.homepage_override_url``` = ```""``` <br>
 	* Отключает приветственную страницу при первом запуске браузера с новым профилем:
 	```startup.homepage_welcome_url = ""``` <br>
 	```startup.homepage_welcome_url.additional = ""```
